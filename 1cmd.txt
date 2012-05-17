@@ -1,0 +1,8 @@
+# mkdir /usr/config && chown -R developer:developer /usr/config
+$ echo "#mkdir /usr/config && chown -R developer:developer /usr/config" >> /usr/config/1cmd.txt
+$ chmod -R 777 /usr/config
+$ cd /usr/config && git init
+$ cd /usr/config && git status
+$ cd /usr/config && git add 1cmd.txt
+$ cd /usr/config && vi 1cmd.txt
+$ cd /usr/config && git add 1cmd.txt
