@@ -1,7 +1,11 @@
 
 # mkdir /usr/config && chown -R developer:developer /usr/config
+$ chmod -R 777 /usr/config
 $ cd /usr && git clone git@github.com:smoradi/config.git
 $ echo "\$ cd /usr && git clone git@github.com:smoradi/config.git" >> /usr/config/2cmd.txt
 $ cd /usr/config && chmod 777 2cmd.txt
 $ cd /usr/config && git add 2cmd.txt
 $ cd /usr/config && git commit -m 'Adding second command text file'
+
+git config --global user.email developer@ubuntu-10.04
+git commit --amend --author='daveLoper <developer@ubuntu-10.04>'
