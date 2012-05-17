@@ -1,0 +1,21 @@
+
+Permission denied (Public Key).
+$ ssh-keygen
+$ cat ~/.ssh/id_rsa.pub
+# vi /usr/local/etc/lynx.cfg
+vi> :/editor DEFAULT_EDITOR:vi POSITIONABLE_EDITOR:vi
+$ lynx https://github.com
+lynx> _________
+lynx> ^Xe 
+lynx> vi> :w
+lynx> vi> :e ~/.ssh/id_rsa.pub
+lynx> vi> :dd
+lynx> vi> :p
+lynx> vi> :w
+lynx> vi> :e #
+lynx> vi> :p
+lynx> vi> :x
+lynx> submit
+
+$ cd /usr/config && git push -u origin master
+$ cd /usr/config && git branch -a
