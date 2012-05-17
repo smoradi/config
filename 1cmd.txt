@@ -6,3 +6,7 @@ $ cd /usr/config && git status
 $ cd /usr/config && git add 1cmd.txt
 $ cd /usr/config && vi 1cmd.txt
 $ cd /usr/config && git add 1cmd.txt
+$ cd /usr/config && git commit -m 'Adding first command text file'
+$ git config --global user.name "DeveLoper"
+$ git config --global user.email developer@desk1.sd.mars1
+$ cd /usr/config && git commit --amend --reset-author
