@@ -1,3 +1,4 @@
+
 # mkdir /usr/config && chown -R developer:developer /usr/config
 $ echo "#mkdir /usr/config && chown -R developer:developer /usr/config" >> /usr/config/1cmd.txt
 $ chmod -R 777 /usr/config
@@ -10,3 +11,9 @@ $ cd /usr/config && git commit -m 'Adding first command text file'
 $ git config --global user.name "DeveLoper"
 $ git config --global user.email developer@desk1.sd.mars1
 $ cd /usr/config && git commit --amend --reset-author
+
+$ cat /usr/config/1cmd.txt
+$ cat /usr/config/1cmd.txt |grep author
+
+$ cd /usr/config && git remote add origin git@github.com:smoradi/config.git
+$ cd /usr/config && git push -u origin master
