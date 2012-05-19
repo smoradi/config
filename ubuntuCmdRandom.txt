@@ -1,0 +1,40 @@
+gnome-terminal --geometry=180x24+0+0
+smb://hostname
+jps -l
+kill -9 [pid]
+sudo vim /etc/updatedb.conf
+sudo sysv-rc-conf
+
+http://mislav.uniqpath.com/2011/12/vim-revisited/
+https://github.com/mislav/vimfiles
+
+hg update -C vim72 # Switch branch to vim72 in Maricori!
+./configure --prefix=/opt/program/vim72 --enable-rubyinterp --enable-multibyte --enable-gui=no --disable-gpm --enable-fontset --with-features=big
+
+
+http://1000umbrellas.com/2010/04/29/how-to-set-up-the-firewall-using-ufw-on-ubuntu-lucid-lynx-server
+
+md5sum FreeBSD-9.0-RELEASE-i386-disc1.iso
+5bf615f286ee6eeb3ecce45bd8d1622c  FreeBSD-9.0-RELEASE-i386-disc1.iso
+sha1sum FreeBSD-9.0-RELEASE-i386-disc1.iso
+i843a7f3e2cdebc7c58c7db8a34f790a75705dd69  FreeBSD-9.0-RELEASE-i386-disc1.iso
+
+
+create database redmine character set utf8;
+create user 'redmine'@'localhost' identified by 'my_password';
+grant all privileges on redmine.* to 'redmine'@'localhost';
+
+ For versions of MySQL prior to 5.0.2 - skip the 'create user' step and instead:
+grant all privileges on redmine.* to 'redmine'@'localhost' identified by 'pass';
+
+
+sudo service mysql stop
+sudo service virtualbox-ose stop
+sudo service binfmt-support stop
+#sudo service boinc-client stop
+sudo service apache2 stop
+
+sudo update-initramfs -c -k 2.6.32-38-generic-pae
+sudo update-grub
+$ sudo vi /etc/default/grub
+$ sudo update-grub
