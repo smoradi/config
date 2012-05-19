@@ -1,0 +1,8 @@
+man hier
+ifconfig -a
+dig -x Ip_address
+man security
+sockstat -4l
+sockstat -l
+pkg_info -Ix port_name
+xset b off 
