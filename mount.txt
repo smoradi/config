@@ -1,0 +1,2 @@
+mount -t ntfs /dev/da0s1 /mnt/toshiba-ext-usd-hdd/
+mount -t cd9660 /dev/cd0 /mnt/cdrom
