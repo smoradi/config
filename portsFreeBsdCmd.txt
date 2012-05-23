@@ -20,3 +20,4 @@ cd /usr/ports/lang/ruby18 && make rmconfig
 
 cd /usr/ports/www/lynx && make install clean
 Security: /usr/local/bin/lynx
+
