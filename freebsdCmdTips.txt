@@ -7,3 +7,4 @@ sockstat -l
 pkg_info -Ix port_name
 xset b off
 unset nobeep
+set nobeep
