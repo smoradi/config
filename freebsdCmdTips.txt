@@ -9,3 +9,5 @@ xset b off
 unset nobeep
 set nobeep
 w
+man script
+vidcontrol -h 7000
