@@ -7,6 +7,10 @@ cd /usr/ports/devel/mercurial && make install clean
 pkg_info -Ix mercurial
 pkg_info -Ix python
 
+cd /usr/ports/devel/subversion && make install clean
+pkg_info -Ix subversion
+pkg_info -Ix tcl
+
 cd /usr/ports && make search name=ruby
 The search target requires INDEX-9. Please run make index or make fetchindex.
 cd /usr/ports && make index
@@ -21,3 +25,9 @@ cd /usr/ports/lang/ruby18 && make rmconfig
 cd /usr/ports/www/lynx && make install clean
 Security: /usr/local/bin/lynx
 
+cd /usr/ports/editors/vim && make install clean
+Security: 'set nomodeline' ~/.vimrc
+
+cd /usr/ports/devel/ruby-gems && make install clean
+
+portsFreeBsdCmd.txt: 33 lines, 953 characters.
