@@ -32,4 +32,7 @@ last message repeated 3 times
 vi ~/.shrc And uncomment umask 022 (my case, umask 002 [-rw-rw-r--]).
 vi /etc/group and see group names and chosen number ([not sure why nobody ..]).
 
-defaultOrNot.txt: 35 lines, 852 characters
+vi /etc/syslogd.conf And comment all lines expect /dev/console
+vidcontrol -h 7000
+
+defaultOrNot.txt: 38 lines, 936 characters.

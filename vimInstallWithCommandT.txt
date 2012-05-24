@@ -1,0 +1,3 @@
+hg clone https://vim.googlecode.com/hg/ vim
+cd vim
+hg update -C vim72
