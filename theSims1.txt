@@ -1,0 +1,11 @@
+
+# give the current hosehold an additional 1,000 Simoleons.
+# Enter cheat mode:
+CTRL + SHIFT + c
+klapaucius
+# This will give 1,000 Simoleons in Unpatched version of The Sims only.
+CTRL + SHIFT + c
+rosebud
+# This will give 1,000 Simoleons in Patched version of The Sims only.
+
+# Followed by ;! will add another 1,000. ;!;! 2,000 ;!;!1 ENTER
