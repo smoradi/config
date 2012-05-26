@@ -5,4 +5,9 @@ man security
 sockstat -4l
 sockstat -l
 pkg_info -Ix port_name
-xset b off 
+xset b off
+unset nobeep
+set nobeep
+w
+man script
+vidcontrol -h 7000

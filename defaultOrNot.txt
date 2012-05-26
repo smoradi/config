@@ -1,0 +1,38 @@
+# defaultOrNot.txt is my modification of default settings in freeBSD-9.0 OS
+
+# Is default character set UTF-8?
+vi /etc/login.conf 
+default:\
+	:path=remove /usr/games:\ 
+	:charset=UTF-8:\ 
+	:lang=en_US.UTF-8:\
+#?	:timezone=UTC:\
+#?	:tc=auth-defaults:
+cap_mkdb /etc/login.conf
+# Can root always login?
+vi /etc/login.conf 
+root:\ 
+	:ignorenologin:\ 
+	:tc=default:
+
+#russian|Russian Users Accounts:
+#	:charset=KOI8-R:
+#	:lang=ru_RU.KOI8-R:
+#	:tc=default:
+
+news:
+	:tc=default:
+
+cap_mkdb /etc/login.conf
+# After comment out root:\ I use to see below messages in tty0 after login by
+# root
+login: login_getclass: unknown class 'root'
+last message repeated 3 times
+
+vi ~/.shrc And uncomment umask 022 (my case, umask 002 [-rw-rw-r--]).
+vi /etc/group and see group names and chosen number ([not sure why nobody ..]).
+
+vi /etc/syslogd.conf And comment all lines expect /dev/console
+vidcontrol -h 7000
+
+defaultOrNot.txt: 38 lines, 936 characters.

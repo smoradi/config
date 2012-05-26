@@ -1,0 +1,57 @@
+# hg clone https://vim.googlecode.com/hg/ vim
+# cd vim
+# hg update -C vim72
+# ./configure --enable-rubyinterp --enable-gui=no --disable-gpm --with-features=big --enable-multibyte --enable-fontset --with-tlib=ncurses
+# Above configure command didn't worked for me, --with-tilb failed to linked
+
+# cd /usr/ports/editors/vim && make install clean
+# To enable +ruby, I've add WITH_OPTIONS= yes WITH_VIM_OPTIONS= yes to Makefile
+
+vim --version |grep ruby
+-python3 +quickfix +reltime +rightleft +ruby +scrollbind +signs +smartindent 
+Linking: cc   -L. -L/usr/lib  -rpath=/usr/lib:/usr/local/lib -pthread -rdynamic  -L/usr/local/lib -Wl,--as-needed -o vim             -lm -lelf  -ltermlib -liconv -lintl                -Wl,-R -Wl,/usr/local/lib -L/usr/local/lib -lruby18 -lcrypt -lm -L/usr/lib  -rpath=/usr/lib:/usr/local/lib -pthread   
+
+# It seems vim is installed with +ruby support, in continue we will see is not.
+
+git clone git@github.com:mislav/vimfiles.git
+cd ~
+mv .vimrc .vimrc_backup && mv .vim .vim_backup
+ln -s /path/to/vimfiles/ .vim
+cd .vim
+rake
+# Note: if you don't have rake command 'cd /usr/ports/devel/ruby-gems && make 
+# install clean' then run 'gem install rake'
+# Result of rake command was not quit successful since CommandT needs +ruby
+# It seems Vim-7.3 with those amount of patch still doesn't work properly.
+
+# Let's try vim72 from source code again 
+svn co https://vim.svn.sourceforge.net/svnroot/vim/vim7 vim72
+./configure --prefix=/usr/program/vim --enable-rubyinterp --enable-gui=no --disable-gpm --with-features=big --enable-multibyte --enable-fontset
+# I've add last three option regards to have farsi support, you may skip them.
+
+ln -s /usr/program/vim/bin/vim /usr/local/bin/vim
+
+vim --version |grep ruby
++printer -profile -python +quickfix +reltime +rightleft +ruby +scrollbind 
+Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H   -I/usr/local/include  -g -O2 -D_FORTIFY_SOURCE=1       -I/usr/local/lib/ruby/1.8/i386-freebsd9 -DRUBY_VERSION=18 
+Linking: gcc   -L. -L/usr/lib  -rpath=/usr/lib:/usr/local/lib -pthread -rdynamic  -L/usr/local/lib -o vim    -lXt -lncurses -lintl      -Wl,-R -Wl,/usr/local/lib -L/usr/local/lib -lruby18 -lm -L/usr/lib  -rpath=/usr/lib:/usr/local/lib -pthread  
+
+cd ~/.vim
+rake command_t
+# rake command_t failed for me with same message again Warning vim doesn't have
+# ruby support. This time I've edit Rakefile and change line
+ruby = read_ruby_version(vim)
+# to
+ruby = "ruby18"
+# or 
+ruby = "ruby"
+# is fine.
+rake
+# This time you have vim installed with command_t plugin
+# Following configuration is recommended by freebsd security port
+echo set nomodeline >> ~/.vimrc
+
+# Last word, You may get vim-7.3 to work with same solution, but I haven't try
+# that.
+
+vimInstallWithCommandT.txt: 57 lines, 2771 characters.
