@@ -1,0 +1,3 @@
+`git pull`	git pull command failed, at the same time git clone was fine
+`w` 		failed by showing one user twice in one TTY
+		appeares when syslogd was disfunctional and fixed automatically!
