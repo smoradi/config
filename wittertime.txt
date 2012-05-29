@@ -1,0 +1,2 @@
+20120529
+My digital watch in right hand shows two times, first one in set to 0 GMT UTC, second one shows local time, my computer time is set to 0 GMT
