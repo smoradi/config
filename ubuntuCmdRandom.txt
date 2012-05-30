@@ -38,3 +38,5 @@ sudo update-initramfs -c -k 2.6.32-38-generic-pae
 sudo update-grub
 $ sudo vi /etc/default/grub
 $ sudo update-grub
+
+echo "setxkbmap -model pc104 -layout us,ir -variant ," >> ~/.bashrc

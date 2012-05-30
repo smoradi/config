@@ -40,3 +40,7 @@ Application Error, for details see logs
 heroku logs --tail
 Error: Redmine requires Bundler 1.0.21 (you'r using 1.0.7).
 mission failed.
+heroku create
+Creating warm-moon-1554... done, stack is bamboo-mri-1.9.2
+again
+Error: Redmine requires Bundler 1.0.21 (you'r using 1.0.7).
