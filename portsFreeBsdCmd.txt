@@ -31,3 +31,5 @@ Security: 'set nomodeline' ~/.vimrc
 cd /usr/ports/devel/ruby-gems && make install clean
 
 portsFreeBsdCmd.txt: 33 lines, 953 characters.
+cd /usr/ports/x11-fonts/farsifonts && make install clean
+cd /usr/ports/x11-fonts/webfonts && make install clean

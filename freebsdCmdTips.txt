@@ -11,3 +11,9 @@ set nobeep
 w
 man script
 vidcontrol -h 7000
+sysctl -a | more
+sysctl -a | grep -i memory
+devinfo
+swapinfo
+vidcontrol -i mode
+#vidcontrol -f 8x8 /usr/share/syscons/fonts/iso02-8x8.fnt
