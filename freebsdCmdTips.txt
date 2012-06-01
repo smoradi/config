@@ -17,3 +17,7 @@ devinfo
 swapinfo
 vidcontrol -i mode
 #vidcontrol -f 8x8 /usr/share/syscons/fonts/iso02-8x8.fnt
+vidcontrol -f 8x16 /usr/share/syscons/fonts/iso-8x16.fnt
+vidcontrol -f 8x16 iso-8x16
+vidcontrol -f iso-8x16
+vidcontrol -f iso
