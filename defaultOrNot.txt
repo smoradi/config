@@ -38,7 +38,10 @@ vi /etc/syslogd.conf And comment all lines expect /dev/console
 vidcontrol -h 7000
 
 mv /usr/libexec/sendmail/sendmail /usr/libexec/sendmail/nosendnomail
+or vi /etc/rc.conf sendmail_enable="NONE"
 
 vi /etc/passwd
 /bin/sh changed to /bin/csh
 DefaultOrNot.txt: 44 lines, 1147 characters.
+vi /etc/sysctl.conf
+vfs.usermount=1

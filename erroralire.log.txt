@@ -3,3 +3,4 @@
 		appeares when syslogd was disfunctional and fixed automatically!
 `cd /usr/ports/x11/xorg-minimal && make install`	unable to login anymore!
 		solution for me was boot with CD and comment xdm in /etc/ttys
+		Or use <CTRL> <ALT> <F1-7>		

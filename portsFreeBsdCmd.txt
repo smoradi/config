@@ -39,4 +39,3 @@ cd /usr/ports/x11/xterm && make install clean
 cd /usr/ports/x11/xdm && make install clean
 cd /usr/ports/x11/xorg-minimal & make install clean
 
-Xorg -configure -retro
