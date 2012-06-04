@@ -1,15 +1,22 @@
-A B C D E F G H I G K L M N O P Q R S T U V W X Y Z
-[ \ ] ^ _ `
-a b c d e f g h i g k l m n o p q r s t u v w x y z
-{ | } ~
+Characters edited from 036 to 255
 
-ƒ„…†‡‰‹‚‘ ’“” •—™›‚Ά  
+$ % & ' ( ) * + , - . / 0123456789 : ;< = > ? @  
+A B C D E F G H I G K L M N O P Q R S T U V W X Y Z   [ \ ] ^ _ `
+a b c d e f g h i g k l m n o p q r s t u v w x y z   { | } ~
+
+ƒ„…†‡‰‹‚‘ ’“” •–—™›‚Ά  
 ¤¥¦§¨©ª«¬­®―
 °ΉΈ·¶µ΄³²±
 Ί»Ό½ΎΏ
-
 ΐΑΒ Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Ò Σ Τ Υ Φ Χ Ψ Ω Ϊ Ϋ ά έ ή ί ΰ α  
+[]{}ζηθικ μ‚ξο πρςστυφχψωϊϋ ό ύ ώ α 
 
-1234567890-=  ;',./
+Characters entered from left to right, top down in Vim normal mode
 
+`1234567890-=qwertyuiop[]\asdfghjkl;'zxcvbnm,./
+~!@#$%^&*()_+QWERTYUIOP{}|ASDFGHJKL:"ZXCVBNM<>?
+
+Character entered from left to right, top down in Vim Farsi mode
+Ά½­°ΉΈ·¶µ΄³²±†–•“‰‡Θλ‹ƒάΑ…›—ΥΤΞΝΜΛ„ί¦―
+~£§®¤¥ª¬θ¨©ι«χυτσςρπφ[]{}κωμοϊψΐόζηΊ»ύΤΟΝ΅ΛΒΎΌΏ
 

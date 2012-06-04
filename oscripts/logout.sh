@@ -1,4 +1,7 @@
+clear
+echo "clear"
 echo "w"
 w
 sh /config/oscripts/clean_home.sh
-echo "GoodBye $0"
+echo ""
+echo "Good Bye :) $0"
