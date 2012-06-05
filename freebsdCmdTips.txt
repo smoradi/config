@@ -26,3 +26,4 @@ Xorg -config xorg.conf -retro
 pw groupmod operator -m developer
 pw groupmod operator -d developer
 bzip2 -d nesf2.ttf.bz2
+#kill -HUP 1

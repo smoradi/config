@@ -1,41 +1,65 @@
 cd /usr/ports/devel/git && make install clean
+/*Security: git_daemon  (/etc/rc.conf git_daemon_enable="NO")*/
 pkg_info -Ix git
+#git-1.7.8           Distributed source code management tool
 pkg_info -Ix perl
-Security: git_daemon  (/etc/rc.conf git_daemon_enable="YES")
+#perl-5.12.4_3       Practical Extraction and Report Language
 
 cd /usr/ports/devel/mercurial && make install clean
 pkg_info -Ix mercurial
+#mercurial-2.0       A fast, lightweight source control management system
 pkg_info -Ix python
+#python27-2.7.2_3    An interpreted object-oriented programming language
 
 cd /usr/ports/devel/subversion && make install clean
 pkg_info -Ix subversion
+#subversion-1.7.2    Version control system
 pkg_info -Ix tcl
+#tcl-8.5.11          Tool Command Language
 
 cd /usr/ports && make search name=ruby
 The search target requires INDEX-9. Please run make index or make fetchindex.
 cd /usr/ports && make index
 
 cd /usr/ports/lang/ruby18 && make install clean
-Security: /usr/local/lib/ruby/1.8/i386-freebsd9/socket.so
+/*Security: /usr/local/lib/ruby/1.8/i386-freebsd9/socket.so*/
 pkg_info -Ix ruby
-pkg_info -Ix automake
-pkg_info -Ix autoconf
-cd /usr/ports/lang/ruby18 && make rmconfig
+#ruby-1.8.7.352_2,1  An object-oriented interpreted scripting language
 
 cd /usr/ports/www/lynx && make install clean
-Security: /usr/local/bin/lynx
+/*Security: /usr/local/bin/lynx*/
+#lynx-2.8.7.1_1,1    A non-graphical, text-based World-Wide Web client
 
 cd /usr/ports/editors/vim && make install clean
-Security: 'set nomodeline' ~/.vimrc
+/*Security: 'set nomodeline' ~/.vimrc*/
+#vim-7.3.121         Vi "workalike", with many additional features
 
 cd /usr/ports/devel/ruby-gems && make install clean
+#ruby18-gems-1.8.11  Package management framework for the Ruby language
 
-portsFreeBsdCmd.txt: 33 lines, 953 characters.
 cd /usr/ports/x11-fonts/farsifonts && make install clean
-cd /usr/ports/x11-fonts/webfonts && make install clean
+#farsifonts-0.4_2    Standard set of Unicode Persian fonts
+#cd /usr/ports/x11-fonts/webfonts && make install clean
 cd /usr/ports/sysutils/fonteditfs/ && make install clean
+#fonteditfs-1.2      A Full Screen Syscons Font Editor
 
 cd /usr/ports/x11/xterm && make install clean
-cd /usr/ports/x11/xdm && make install clean
+#xterm-276_1         Terminal emulator for the X Window System
 cd /usr/ports/x11/xorg-minimal & make install clean
+#xorg-minimal-7.5.1  X.Org minimal distribution metaport
+cd /usr/ports/x11/kdebase3 && make install clean
+/*Security /usr/local/bin/kdesud /usr/local/bin/ksysguardd /usr/local/bin/kcheckpass /usr/local/bin/kdm-bin */
 
+## make install python again for enable threading support
+setenv FORCE_PKG_REGISTER   
+cd /usr/ports/lang/python27 && make rmconfig && make install clean
+/*Security: /usr/local/lib/python27/lib-dynload/_socket.so*/
+
+cd /usr/ports/audio/mpg123 && make install clean && pkg_info -Ix mpg
+#mpg123-1.13.4       Command-line player for mpeg layer 1, 2 and 3 audio
+
+cd /usr/ports/ports-mgms/fastest_sites/ && make install
+cd /usr/ports/ports-mgms/fastest_sites/work/fastest_sites-20110317.py/ && 
+python fastest_sites-20110317.py >> /usr/local/etc/ports_sites.conf
+vi /etc/make.conf # add following line
+.include "/usr/local/etc/ports_sites.conf"
