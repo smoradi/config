@@ -63,3 +63,15 @@ cd /usr/ports/ports-mgms/fastest_sites/work/fastest_sites-20110317.py/ &&
 python fastest_sites-20110317.py >> /usr/local/etc/ports_sites.conf
 vi /etc/make.conf # add following line
 .include "/usr/local/etc/ports_sites.conf"
+
+cd /usr/ports/java/diablo-jdk16 && make install clean
+#diablo-jdk-1.6.0.07.02_17 Java Development Kit 1.6.0_07.02
+/*Security /usr/local/diablo-jdk1.6.0/bin/javaws /usr/local/diablo-jdk1.6.0/jre/lib/i386/libdt_socket.so */
+
+cd /usr/ports/textproc/pdftohtml && make install clean
+#pdftohtml-0.39_5    A command-line tool for converting pdf-files into html
+#ghostscript9-9.02_4 Ghostscript 9.x PostScript interpreter
+
+cd /usr/ports/www/elinks/ && make install clean
+#elinks-0.11.7_2     Elinks - links text WWW browser with enhancements
+/*Security /usr/local/bin/elinks ( USES POSSIBLY INSECURE FUNCTIONS: tempnam )*/
