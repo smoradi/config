@@ -1,18 +1,18 @@
 # defaultOrNot.txt is my modification of default settings in freeBSD-9.0 OS
 
 # Is default character set UTF-8?
-vi /etc/login.conf 
+vi /etc/login.conf
 default:\
-	:path=remove /usr/games:\ 
-#	:charset=UTF-8:\ 
+	:path=remove /usr/games:\
+#	:charset=UTF-8:\
 #	:lang=en_US.UTF-8:\
 #?	:timezone=UTC:\
 #?	:tc=auth-defaults:
 cap_mkdb /etc/login.conf
 # Can root always login?
-vi /etc/login.conf 
-root:\ 
-	:ignorenologin:\ 
+vi /etc/login.conf
+root:\
+	:ignorenologin:\
 	:tc=default:
 
 #russian|Russian Users Accounts:
@@ -41,7 +41,15 @@ mv /usr/libexec/sendmail/sendmail /usr/libexec/sendmail/nosendnomail
 or vi /etc/rc.conf sendmail_enable="NONE"
 
 vi /etc/passwd
-/bin/sh changed to /bin/csh
-DefaultOrNot.txt: 44 lines, 1147 characters.
+/bin/sh changed to /bin/csh  #Didn't worked, wish was that much easy.
 vi /etc/sysctl.conf
 vfs.usermount=1
+
+vim .elinks/elinks.conf
+# Save options from elinks (after two days) will override your manual editing.
+# Duplication
+# Wondering where lynx save user specific options?
+# Complex
+
+defaultOrNot.txt  [Git(master)]Line:55/55[100%]Col:1Buf:#1[34][0x22]
+"defaultOrNot.txt" 55L, 1497C
