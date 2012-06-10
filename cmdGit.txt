@@ -1,0 +1,11 @@
+# Undo last commit and redo
+git reset --soft HEAD^
+// edit
+git commit -a -c ORIG_HEAD
+// or
+git commit -a -m "modified message" ORIG_HEAD
+
+# Undo last two commits permenetly 
+git reset --hard HEAD~2
+// do not use this option if you already push them to somebody else
+

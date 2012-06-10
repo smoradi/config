@@ -71,6 +71,7 @@ cd /usr/ports/java/diablo-jdk16 && make install clean
 cd /usr/ports/textproc/pdftohtml && make install clean
 #pdftohtml-0.39_5    A command-line tool for converting pdf-files into html
 #ghostscript9-9.02_4 Ghostscript 9.x PostScript interpreter
+#cd /usr/ports/print/ghostscript9 && make deinstall
 
 cd /usr/ports/www/elinks/ && make install clean
 #elinks-0.11.7_2     Elinks - links text WWW browser with enhancements
