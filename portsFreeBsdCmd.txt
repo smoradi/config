@@ -76,3 +76,6 @@ cd /usr/ports/textproc/pdftohtml && make install clean
 cd /usr/ports/www/elinks/ && make install clean
 #elinks-0.11.7_2     Elinks - links text WWW browser with enhancements
 /*Security /usr/local/bin/elinks ( USES POSSIBLY INSECURE FUNCTIONS: tempnam )*/
+
+cd /usr/ports/java/openjdk6 && make install clean
+

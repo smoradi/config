@@ -1,0 +1,8 @@
+cd /usr/src/sys/i386/conf
+mkdir /root/kernels
+cp GENERIC /root/kernels/SILENT
+ln -s /root/kernels/SILENT
+vi SIELNT
+cd /usr/src/
+make buildkernel KERNCONF=SILENT
+make installkernel KERNCONF=SILENT
