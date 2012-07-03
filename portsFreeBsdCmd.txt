@@ -77,5 +77,21 @@ cd /usr/ports/www/elinks/ && make install clean
 #elinks-0.11.7_2     Elinks - links text WWW browser with enhancements
 /*Security /usr/local/bin/elinks ( USES POSSIBLY INSECURE FUNCTIONS: tempnam )*/
 
-cd /usr/ports/java/openjdk6 && make install clean
+cd /usr/ports/java/openjdk6 && make test      #Needs Internet connection to pas
 
+cd /usr/ports/www/firefox && make && make install clean
+/*Security /usr/local/lib/firefox/sdk/lib/libxul.so /usr/local/lib/firefox/libuxl.so */
+# firefox HTML5 in /boot/loader.conf sem_load="YES"
+#firefox-9.0.1,1 Web browser based on the browser portion of Mozilla
+
+cd /usr/ports/x11/setxkbmap && make install clean
+#setxkbmap-1.2.0     Set the keyboard using the X Keyboard Extension
+
+cd /usr/ports/devel/maven3 && make install clean
+#maven-wrapper-1_1   Wrapper script for the various installations of Maven
+#maven3-3.0.3_1      Java project management tool, 3.x branch
+
+cd /usr/ports/databases/mysql55-server && make install clean
+#mysql-client-5.5.17 Multithreaded SQL database (client)
+#mysql-server-5.5.17 Multithreaded SQL database (server)
+/*Security /usr/local/libexec/mysqld /usr/local/etc/rc.d/mysql-server */

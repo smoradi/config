@@ -50,3 +50,12 @@ fi
 if [ -d ~/.thumbnails ]; then
   rm -r ~/.thumbnails;  echo "~/.thumbnails is clear now.."
 fi
+if [ -d ~/.mozilla ]; then
+  rm -r ~/.mozilla; echo "~/.mozilla is clear now.."
+fi
+if [ -e ~/firefox-bin.core ]; then
+  rm ~/firefox-bin.core;  echo "~/firefox-bin.core is clear now.."
+fi
+if [ -e ~/.DCOPserver* ]; then
+  rm -f ~/.DCOPserver*;  echo "~/.DCOPserver* is clear now.."
+fi
