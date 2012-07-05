@@ -40,3 +40,5 @@ $ sudo vi /etc/default/grub
 $ sudo update-grub
 
 echo "setxkbmap -model pc104 -layout us,ir -variant ," >> ~/.bashrc
+md5 ubuntu-12.04-server-i386.iso
+MD5 (ubuntu-12.04-server-i386.iso) = 32184a83c8b5e6031e1264e5c499bc03
