@@ -39,4 +39,4 @@ sudo update-grub
 $ sudo vi /etc/default/grub
 $ sudo update-grub
 
-echo "setxkbmap -model pc104 -layout us,ir -variant ," >> ~/.bashrc
+echo 'setxkbmap -model pc104 -layout "us,bg" -variant ",phonetic" -option "grp:alt_shift_toggle" ' >> ~/.bashrc

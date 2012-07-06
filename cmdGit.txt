@@ -9,3 +9,11 @@ git commit -a -m "modified message" ORIG_HEAD
 git reset --hard HEAD~2
 // do not use this option if you already push them to somebody else
 
+# Export a git repository
+git archive --format zip --output /ws/smoradi-fitnesse-20120619-359-g4df82fd.zip master
+
+# Create production branch
+git branch production
+git checkout production
+git commit -m "some code changes before to deploy to heroku"
+git push heroku production:master

@@ -6,3 +6,5 @@ If you don't remember when was the last time you went to the badroom and had a  
 A person is a person no matter how small. Where you heard this ? Harton a who
 ¸±³°±¹³± 70602102
 ÁÎ ÁŸœ—à Œ›‚ Ëœƒ‚Ü ÁŸÞ Í•…ŸË —à ÁŸÞ ›…Þ •‚Í‹ÿ Íß …Í‡›à —œŸË ŠßŒ‰‚™Ý¦  written in Farsi
+20120609
+Git (Source control version) lesson, it is possible to have text file and change it to binary file, but not possible to turn binary to text
