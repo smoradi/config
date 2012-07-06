@@ -1,13 +1,39 @@
-# Undo last commit and redo
-git reset --soft HEAD^
-// edit
+git diff
+git diff --cached
+git diff --staged
+git mv
+git log -p -2
+git log --stat
+git log --pretty=oneline
+git log --pretty=format: "%h - %an, %ar : %s"
+git log --graph --since=2.weeks
+git fetch origin
+git commit --amend              # Undo last commit
+git reset --soft HEAD^          # Undo last commit and redo
 git commit -a -c ORIG_HEAD
-// or
 git commit -a -m "modified message" ORIG_HEAD
+git reset --hard HEAD~2         # Undo last two commits permenetly
+# do not use above option if you already push them to somebody else
 
-# Undo last two commits permenetly 
-git reset --hard HEAD~2
-// do not use this option if you already push them to somebody else
+git config --global merge.tool vimdiff
+git branch test
+git checkout test
+git checkout master
+git merge test
+git branch -d test
+
+git checkout test
+git rebase master               # Do not use rebase on commit that you pushed
+
+git config --global rerere.enabled 1
+git checkout master
+git merge 2.1.x
+git checkout master
+git commit
+
+#Gitsubmodule add
+git submodule add git://github.com/smoradi/runit.git lib/runit
+git submodule update
 
 # Export a git repository
 git archive --format zip --output /ws/smoradi-fitnesse-20120619-359-g4df82fd.zip master

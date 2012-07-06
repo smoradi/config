@@ -1,7 +1,7 @@
 clear
 echo "clear"
+sh /config/oscripts/clean_home.sh
 echo "w"
 w
-sh /config/oscripts/clean_home.sh
 echo ""
 echo "Good Bye :) $0"
