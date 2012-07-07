@@ -4,7 +4,7 @@ EP=$EM/.plugins
 EE=$EP/org.eclipse
 
 if [ -d $EW ]; then
-  echo "$EW founded .metadata directory ready to go clean!"
+  echo "Eclipse metadata dir is $EW clean!"
 else
   echo "$EW not founded, change EW variable in this script to your eclipse workspace"
 fi
@@ -52,7 +52,7 @@ if [ -d $EE.jdt.ui ]; then
   rm -r $EE.jdt.ui; echo "$EE.jdt.ui is clear now.."
 fi
 if [ 1 ]; then   # check git command is avialable and $EW is git repository
-  echo "Fount git command let's remove untracked files";
+#  echo "Fount git command let's remove untracked files";
   cd $EW
   git clean -fd
   git checkout -- .metadata

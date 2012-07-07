@@ -1,2 +1,4 @@
 mount -t ntfs /dev/da0s1 /mnt/usb
 mount -t cd9660 /dev/cd0 /mnt/cdrom
+
+setxkbmap -model pc104 -layout us,ir -option grp:rctrl_rshift_toggle

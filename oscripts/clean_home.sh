@@ -59,12 +59,15 @@ fi
 if [ -e ~/.DCOPserver* ]; then
   rm -f ~/.DCOPserver*;  echo "~/.DCOPserver* is clear now.."
 fi
+if [ -d ~/.jubula ]; then
+  rm -r ~/.jubula;  echo "~/.jubula is clear now.."
+fi
 
 if [ -e /config/oscripts/eclipse_clean.sh ]; then
-  echo "Execute /config/oscripts/eclipse_clean.sh";
+#  echo "Execute /config/oscripts/eclipse_clean.sh";
   sh /config/oscripts/eclipse_clean.sh
 fi
 if [ -e /config/oscripts/eclipse_ws_clean.sh ]; then
-  echo "Execute /config/oscripts/eclipse_clean.sh";
+#  echo "Execute /config/oscripts/eclipse_ws_clean.sh";
   sh /config/oscripts/eclipse_ws_clean.sh
 fi
