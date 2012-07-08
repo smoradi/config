@@ -1,8 +1,8 @@
-EH=/desk/eclipse
+EH=~/Desktop/eclipse
 EHC=$EH/configuration
 oe=org.eclipse
 
-if [ -d $EH ]]; then
+if [ -d $EH ]; then
   echo "Eclipse home is $EH , ready to go clean!"
 else
   echo "Eclipse home $EH doesn't exist run ln -s /path/to/eclipse /desk/eclipse , or change $EH to /desk/eclipse"

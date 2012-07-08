@@ -11,9 +11,9 @@ echo "|__  |  |  |  |__|  /\ "
 fi
 echo "Good Morning .."
 
-sh /config/oscripts/clean_home.sh
+#sh /config/oscripts/clean_home.sh
 
-#export JAVA_HOME=/usr/local/diablo-jdk1.6.0
+export JAVA_HOME=/usr/local/openjdk6
 echo "JAVA_HOME=$JAVA_HOME"
 
 if ! type "vidcontrol" > /dev/null; then

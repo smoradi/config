@@ -62,6 +62,9 @@ fi
 if [ -d ~/.jubula ]; then
   rm -r ~/.jubula;  echo "~/.jubula is clear now.."
 fi
+if [ -e ~/.mysql_history ]; then
+  rm -r ~/.mysql_history;  echo "~/.mysql_history is clear now.."
+fi
 
 if [ -e /config/oscripts/eclipse_clean.sh ]; then
 #  echo "Execute /config/oscripts/eclipse_clean.sh";
