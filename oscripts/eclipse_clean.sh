@@ -31,3 +31,10 @@ fi
 if [ -d $EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings ]; then
   rm -r $EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings; echo "$EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings is clear now.."
 fi
+
+if [ 1 ]; then   # check git command is avialable and $EW is git repository
+#  echo "Fount git command let's remove untracked files";
+  cd $EH
+  git clean -fd
+#  git checkout -- .metadata
+fi

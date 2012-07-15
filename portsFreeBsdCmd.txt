@@ -107,3 +107,13 @@ cd /usr/ports/java/eclipse && make
 
 cd /usr/ports/x11/xset && make install clean
 #xset-1.2.2_1        User preference utility for X
+
+cd /usr/ports/devel/maven2 && make install clean
+#maven2-2.2.1_1      Java project management tool, 2.0 branch
+#maven-wrapper-1_1   Wrapper script for the various installations of Maven
+#maven3-3.0.3_1      Java project management tool, 3.x branch
+
+cd /usr/ports/databases/postgresql91-server && make install clean
+#postgresql-client-9.1.2 PostgreSQL database (client)
+#postgresql-server-9.1.2 The most advanced open-source database available anywhere
+/*Security /usr/local/bin/postgres /usr/local/etc/rc.d/postgresql */
