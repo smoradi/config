@@ -1,0 +1,6 @@
+psql -d template1 -U pgsql
+
+template1=# ALTER USER pgsql WITH ENCRYPTED PASSWORD 'foo';
+template1=# CREATE USER developer WITH NOSUPERUSER CREATEDB NOINHERIT ENCRYPTED PASSWORD '1';
+template1=# create tablespace tableworkspace OWNER developer LOCATION '/ws/etc/pgsql_developer_tablespace/';
+template1=> CREATE DATABASE dbtest WITH OWNER=developer TABLESPACE=tableworkspace

@@ -68,6 +68,9 @@ fi
 if [ -e ~/.mysql_history ]; then
   rm -r ~/.mysql_history;  echo "~/.mysql_history is clear now.."
 fi
+if [ -e ~/.psql_history ]; then
+  rm -r ~/.psql_history;  echo "~/.psql_history is clear now.."
+fi
 
 if [ -d ~/.eclipse ]; then
   rm -r ~/.eclipse; echo "~/.eclipse is clear now.."

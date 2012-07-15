@@ -32,5 +32,6 @@ mount -t ext2fs /dev/da0s2 /mnt/1usb/
 kldload linux #load the linux KLD
 pwd
 pkg_info -Lx maven2
-vi /usr/local/etc/maven/setenv.sh
-vi /etc/ssh/sshd_config && uncoment PermitRootLogin no
+vi /usr/local/etc/maven/setenv.sh && export JAVA_HOME=/usr/local/openjdk6
+netstat -a | egrep 'Proto|LISTEN'
+netstat -an | egrep 'Proto|LISTEN'
