@@ -1,7 +1,7 @@
 echo "GoodMorning $0"
-kill `cat /var/run/syslog.pid`
+#kill `cat /var/run/syslog.pid`
 #echo "syslogd -ss"
-#syslogd -ss
+syslogd -ss
 
 echo "vidcontrol -h 7000"
 vidcontrol -h 7000

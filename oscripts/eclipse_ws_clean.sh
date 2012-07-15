@@ -1,4 +1,4 @@
-EW=/desk/ws/eclipse-ws
+EW=~/Desktop/ws/eclipse-ws
 EM=$EW/.metadata
 EP=$EM/.plugins
 EE=$EP/org.eclipse

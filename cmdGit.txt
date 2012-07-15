@@ -7,7 +7,10 @@ git log --stat
 git log --pretty=oneline
 git log --pretty=format: "%h - %an, %ar : %s"
 git log --graph --since=2.weeks
-git fetch origin
+git pull # or use next three command
+git fetch origin master
+git checkout master
+git merge origin/master
 git commit --amend              # Undo last commit
 git reset --soft HEAD^          # Undo last commit and redo
 git commit -a -c ORIG_HEAD
@@ -43,3 +46,7 @@ git branch production
 git checkout production
 git commit -m "some code changes before to deploy to heroku"
 git push heroku production:master
+# or push to public repository
+git push origin production:production
+# remove form public repository
+git push origin :production

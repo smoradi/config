@@ -78,6 +78,11 @@ cd /usr/ports/www/elinks/ && make install clean
 /*Security /usr/local/bin/elinks ( USES POSSIBLY INSECURE FUNCTIONS: tempnam )*/
 
 cd /usr/ports/java/openjdk6 && make test      #Needs Internet connection to pas
+#openjdk6-b24        Oracle's Java 6 virtual machine release under the GPL v2
+/*Security /usr/local/openjdk6/jre/lib/i386/libnio.so client/libjvm.so native_threads/libhpi.so libdt_socket.so libnet.so server/libjvm.so */
+# vi /et/fstab
+# fdesc   /dev/fd   fdescfs   rw    0   0
+# proc    /proc     procfs    rw    0   0
 
 cd /usr/ports/www/firefox && make && make install clean
 /*Security /usr/local/lib/firefox/sdk/lib/libxul.so /usr/local/lib/firefox/libuxl.so */
@@ -95,3 +100,20 @@ cd /usr/ports/databases/mysql55-server && make install clean
 #mysql-client-5.5.17 Multithreaded SQL database (client)
 #mysql-server-5.5.17 Multithreaded SQL database (server)
 /*Security /usr/local/libexec/mysqld /usr/local/etc/rc.d/mysql-server */
+
+# vi /usr/ports/java/eclipse/Makefile && # comment out USE_GNOME
+cd /usr/ports/java/eclipse && make
+#eclipse-3.6.2       An open extensible IDE for anything and nothing in particul
+
+cd /usr/ports/x11/xset && make install clean
+#xset-1.2.2_1        User preference utility for X
+
+cd /usr/ports/devel/maven2 && make install clean
+#maven2-2.2.1_1      Java project management tool, 2.0 branch
+#maven-wrapper-1_1   Wrapper script for the various installations of Maven
+#maven3-3.0.3_1      Java project management tool, 3.x branch
+
+cd /usr/ports/databases/postgresql91-server && make install clean
+#postgresql-client-9.1.2 PostgreSQL database (client)
+#postgresql-server-9.1.2 The most advanced open-source database available anywhere
+/*Security /usr/local/bin/postgres /usr/local/etc/rc.d/postgresql */

@@ -11,9 +11,9 @@ fi
 if [ -e ~/.ICEauthority ]; then
   rm ~/.ICEauthority; echo "~/.ICEauthority is clear now.."
 fi
-if [ -d ~/.kde ]; then
-  rm -r ~/.kde; echo "~/.kde is clear now.."
-fi
+#if [ -d ~/.kde ]; then
+#  rm -r ~/.kde; echo "~/.kde is clear now.."
+#fi
 if [ -e ~/.kderc ]; then
   rm ~/.kderc; echo "~/.kderc is clear now.."
 fi
@@ -47,14 +47,17 @@ fi
 if [ -e ~/opera.core ]; then
   rm ~/opera.core;  echo "~/opera.core is clear now.."
 fi
+if [ -e ~/firefox-bin.core ]; then
+  rm ~/firefox-bin.core;  echo "~/firefox-bin.core is clear now.."
+fi
+if [ -e ~/eclipse.core ]; then
+  rm ~/eclipse.core;  echo "~/eclipse.core is clear now.."
+fi
 if [ -d ~/.thumbnails ]; then
   rm -r ~/.thumbnails;  echo "~/.thumbnails is clear now.."
 fi
 if [ -d ~/.mozilla ]; then
   rm -r ~/.mozilla; echo "~/.mozilla is clear now.."
-fi
-if [ -e ~/firefox-bin.core ]; then
-  rm ~/firefox-bin.core;  echo "~/firefox-bin.core is clear now.."
 fi
 if [ -e ~/.DCOPserver* ]; then
   rm -f ~/.DCOPserver*;  echo "~/.DCOPserver* is clear now.."
@@ -62,7 +65,13 @@ fi
 if [ -d ~/.jubula ]; then
   rm -r ~/.jubula;  echo "~/.jubula is clear now.."
 fi
+if [ -e ~/.mysql_history ]; then
+  rm -r ~/.mysql_history;  echo "~/.mysql_history is clear now.."
+fi
 
+if [ -d ~/.eclipse ]; then
+  rm -r ~/.eclipse; echo "~/.eclipse is clear now.."
+fi
 if [ -e /config/oscripts/eclipse_clean.sh ]; then
 #  echo "Execute /config/oscripts/eclipse_clean.sh";
   sh /config/oscripts/eclipse_clean.sh

@@ -1,8 +1,8 @@
-EH=/desk/eclipse
+EH=~/Desktop/eclipse
 EHC=$EH/configuration
 oe=org.eclipse
 
-if [ -d $EH ]]; then
+if [ -d $EH ]; then
   echo "Eclipse home is $EH , ready to go clean!"
 else
   echo "Eclipse home $EH doesn't exist run ln -s /path/to/eclipse /desk/eclipse , or change $EH to /desk/eclipse"
@@ -30,4 +30,11 @@ if [ -d $EH/p2/$oe.equinox.p2.engine/.settings ]; then
 fi
 if [ -d $EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings ]; then
   rm -r $EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings; echo "$EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings is clear now.."
+fi
+
+if [ 1 ]; then   # check git command is avialable and $EW is git repository
+#  echo "Fount git command let's remove untracked files";
+  cd $EH
+  git clean -fd
+#  git checkout -- .metadata
 fi
