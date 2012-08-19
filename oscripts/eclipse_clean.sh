@@ -11,25 +11,25 @@ fi
 #  rm -r $EHC/$oe.update/history;  echo "$EHC/$oe.update/history is clear now.."
 #fi
 if [ -d $EHC/$oe.core.runtime ]; then
-  rm -r $EHC/$oe.core.runtime;  echo "$EHC/org.eclipse.core.runtime is clear now.."
+  rm -rf $EHC/$oe.core.runtime;  echo "$EHC/org.eclipse.core.runtime is clear now.."
 fi
 if [ -d $EHC/$oe.equinox.app ]; then
-  rm -r $EHC/$oe.equinox.app;  echo "$EHC/org.eclipse.equinox.app clear now.."
+  rm -rf $EHC/$oe.equinox.app;  echo "$EHC/org.eclipse.equinox.app clear now.."
 fi
 if [ -d $EHC/$oe.osgi ]; then
-  rm -r $EHC/$oe.osgi;  echo "$EHC/org.eclipse.osgi clear now.."
+  rm -rf $EHC/$oe.osgi;  echo "$EHC/org.eclipse.osgi clear now.."
 fi
 if [ -d $EH/p2/$oe.equinox.p2.core/cache ]; then
-  rm -r $EH/p2/$oe.equinox.p2.core/cache; echo "$EH/p2/$oe.equinox.p2.core/cache is clear now.."
+  rm -rf $EH/p2/$oe.equinox.p2.core/cache; echo "$EH/p2/$oe.equinox.p2.core/cache is clear now.."
 fi
 if [ -d $EH/p2/$oe.equinox.p2.repository/cache ]; then
-  rm -r $EH/p2/$oe.equinox.p2.repository/cache; echo "$EH/p2/$oe.equinox.p2.repository/cache is clear now.."
+  rm -rf $EH/p2/$oe.equinox.p2.repository/cache; echo "$EH/p2/$oe.equinox.p2.repository/cache is clear now.."
 fi
 if [ -d $EH/p2/$oe.equinox.p2.engine/.settings ]; then
-  rm -r $EH/p2/$oe.equinox.p2.engine/.settings; echo "$EH/p2/$oe.equinox.p2.engine/.settings is clear now.."
+  rm -rf $EH/p2/$oe.equinox.p2.engine/.settings; echo "$EH/p2/$oe.equinox.p2.engine/.settings is clear now.."
 fi
 if [ -d $EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings ]; then
-  rm -r $EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings; echo "$EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings is clear now.."
+  rm -rf $EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings; echo "$EH/p2/$oe.equinox.p2.engine/profileRegistry/epp.package.testing.profile/.data/.settings is clear now.."
 fi
 
 if [ 1 ]; then   # check git command is avialable and $EW is git repository

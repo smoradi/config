@@ -1,0 +1,9 @@
+# Gradle-1.1 in FreeBSD-9.0
+
+# in .shrc
+alias gradle='bash /usr/ws/gradle-1.1/bin/gradle'
+
+# Fix JNA issue
+cd /usr/ws/gradle-1.1/lib
+mv jna-3.2.7.jar jna-3.2.7.jar.skipped
+mv jna-3.0.4.jar jna-3.2.7.jar

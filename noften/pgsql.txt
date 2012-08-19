@@ -1,6 +1,12 @@
+vi /usr/local/pgsql/data/postgresql.conf && uncomment log_statement = 'none' 
 psql -d template1 -U pgsql
 
 template1=# ALTER USER pgsql WITH ENCRYPTED PASSWORD 'foo';
 template1=# CREATE USER developer WITH NOSUPERUSER CREATEDB NOINHERIT ENCRYPTED PASSWORD '1';
 template1=# create tablespace tableworkspace OWNER developer LOCATION '/ws/etc/pgsql_developer_tablespace/';
 template1=> CREATE DATABASE dbtest WITH OWNER=developer TABLESPACE=tableworkspace
+
+template1=> \l
+template1=> \d
+template1=> \d table
+template1=> \d+ table

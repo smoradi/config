@@ -117,3 +117,12 @@ cd /usr/ports/databases/postgresql91-server && make install clean
 #postgresql-client-9.1.2 PostgreSQL database (client)
 #postgresql-server-9.1.2 The most advanced open-source database available anywhere
 /*Security /usr/local/bin/postgres /usr/local/etc/rc.d/postgresql */
+
+cd /usr/ports/java/openjdk7 && make install clean
+#openjdk-7.0.147_1   Java Development Kit 7
+/*Security /usr/local/openjdk7/jre/lib/i386/libdt_socket.so client/libjvm.so libnio.so libnet.so server/libjvm.so */
+cd /usr/ports/mail/james && make install clean
+
+cd /usr/ports/x11-fonts/terminus-font && make install clean
+#terminus-font-4.36  Terminus Font - a clean fixed width font
+FontPath "/usr/local/lib/X11/fonts/terminus-font/"  need to be add to xorg.conf

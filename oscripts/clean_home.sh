@@ -12,7 +12,7 @@ if [ -e ~/.ICEauthority ]; then
   rm ~/.ICEauthority; echo "~/.ICEauthority is clear now.."
 fi
 #if [ -d ~/.kde ]; then
-#  rm -r ~/.kde; echo "~/.kde is clear now.."
+#  rm -rf ~/.kde; echo "~/.kde is clear now.."
 #fi
 if [ -e ~/.kderc ]; then
   rm ~/.kderc; echo "~/.kderc is clear now.."
@@ -41,9 +41,18 @@ fi
 if [ -e ~/.xsession-errors ]; then
   rm ~/.xsession-errors;  echo "~/.xsession-errros is clear now.."
 fi
-#if [ -d ~/.opera ]; then
-#  rm -r ~/.opera; echo "~/.opera is clear now.."
-#fi
+if [ -d ~/.opera/cache ]; then
+  rm -r ~/.opera/cache; echo "~/.opera/cache is clear now.."
+fi
+if [ -d ~/.opera/opcache ]; then
+  rm -r ~/.opera/opcache; echo "~/.opera/opcache is clear now.."
+fi
+if [ -d ~/.opera/sessions ]; then
+  rm -r ~/.opera/sessions; echo "~/.opera/sessions is clear now.."
+fi
+if [ -d ~/.opera/mail ]; then
+  rm -r ~/.opera/mail; echo "~/.opera/mail is clear now.."
+fi
 if [ -e ~/opera.core ]; then
   rm ~/opera.core;  echo "~/opera.core is clear now.."
 fi
@@ -56,9 +65,9 @@ fi
 if [ -d ~/.thumbnails ]; then
   rm -r ~/.thumbnails;  echo "~/.thumbnails is clear now.."
 fi
-if [ -d ~/.mozilla ]; then
-  rm -r ~/.mozilla; echo "~/.mozilla is clear now.."
-fi
+#if [ -d ~/.mozilla ]; then
+#  rm -r ~/.mozilla; echo "~/.mozilla is clear now.."
+#fi
 if [ -e ~/.DCOPserver* ]; then
   rm -f ~/.DCOPserver*;  echo "~/.DCOPserver* is clear now.."
 fi
