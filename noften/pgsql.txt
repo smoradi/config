@@ -1,4 +1,5 @@
 vi /usr/local/pgsql/data/postgresql.conf && uncomment log_statement = 'none' 
+
 psql -d template1 -U pgsql
 
 template1=# ALTER USER pgsql WITH ENCRYPTED PASSWORD 'foo';

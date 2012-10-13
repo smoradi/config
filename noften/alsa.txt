@@ -1,0 +1,22 @@
+sudo mv /var/lib/alsa/asound.state /var/lib/alsa/asound.state.skipped
+sudo alsactl store
+
+#
+sudo add-apt-repository ppa:ubuntu-audio-dev/ppa; sudo add-apt-repository ppa:team-iquik/alsa; sudo apt-get update --fix-missing; sudo apt-get dist-upgrade; sudo apt-get install linux-sound-base alsa-base alsa-utils gdm ubuntu-desktop linux-image-2.6.32-21-generic-pae  libasound2; sudo apt-get --reinstall install linux-sound-base alsa-base alsa-utils gdm ubuntu-desktop linux-image-2.6.32-21-generic-pae  libasound2; killall pulseaudio; rm -r ~/.pulse*; sudo usermod -aG audio,video,pulse,pulse-access sid
+
+##
+
+###
+wget -O alsa-info.sh http://www.alsa-project.org/alsa-info.sh && chmod +x ./alsa-info.sh && ./alsa-info.sh
+
+If ALSA versions are not same
+sudo apt-add-repository ppa:ubuntu-audio-dev/alsa-daily
+sudo apt-get update
+sudo apt-get install alsa-hda-dkms
+
+####
+cat /proc/asound/{version,cards,devices,hwdep,pcm,seq/clients}; sudo rm /etc/asound.conf; sudo rm -r ~/.pulse ~/.asound* ;sudo rm ~/.pulse-cookie; sudo apt-get update; sudo apt-get install aptitude; sudo aptitude install paman gnome-alsamixer libasound2-plugins padevchooser libsdl1.2debian-pulseaudio; sudo lshw -short;ls -lart /dev/snd;  cat /dev/sndstat; lspci -nn; lsusb; sudo which alsactl; sudo fuser -v /dev/dsp /dev/snd/* ; dpkg -S bin/slmodemd; dmesg | egrep 'EMU|probe|emu|ALSA|alsa|ac97|udi|snd|ound|irmware'; sudo /etc/init.d/sl-modem-daemon status; sudo grep model /etc/modprobe.d/* ; sudo dmidecode|egrep 'anufact|roduct|erial|elease'; lsmod | egrep 'snd|usb|midi|udio'; aplay -l; sudo alsa force-reload; sudo lshw -C sound
+
+#####
+alsamixer
+pavucontrol
