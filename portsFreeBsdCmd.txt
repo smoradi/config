@@ -126,3 +126,7 @@ cd /usr/ports/mail/james && make install clean
 cd /usr/ports/x11-fonts/terminus-font && make install clean
 #terminus-font-4.36  Terminus Font - a clean fixed width font
 FontPath "/usr/local/lib/X11/fonts/terminus-font/"  need to be add to xorg.conf
+
+cd /usr/ports/net/boinc-client && make install clean
+#boinc-client-6.4.5_7 Berkeley Open Infrastructure for Network Computing client
+/*Security /usr/local/bin/boinc_client  /usr/local/etc/rc.d/boinc*/

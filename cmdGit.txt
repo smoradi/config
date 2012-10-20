@@ -48,5 +48,7 @@ git commit -m "some code changes before to deploy to heroku"
 git push heroku production:master
 # or push to public repository
 git push origin production:production
-# remove form public repository
+# remove from public repository
 git push origin :production
+# clean local deleted remote branches
+git remote prune origin
