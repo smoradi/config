@@ -1,4 +1,7 @@
 mount -t ntfs /dev/da0s1 /mnt/usb
 mount -t cd9660 /dev/cd0 /mnt/cdrom
+mount_msdosfs /dev/da0s1 /mnt/usbX
 
 setxkbmap -model pc104 -layout us,ir -option grp:rctrl_rshift_toggle
+dd if=9.0-RELEASE-i386-memstick.img of=/dev/da0 bs=10240 conv=sync
+dump -0Lauf /mnt/1usb/20121025/ada0s3g.dump /dev/ada0s3g

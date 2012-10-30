@@ -130,3 +130,17 @@ FontPath "/usr/local/lib/X11/fonts/terminus-font/"  need to be add to xorg.conf
 cd /usr/ports/net/boinc-client && make install clean
 #boinc-client-6.4.5_7 Berkeley Open Infrastructure for Network Computing client
 /*Security /usr/local/bin/boinc_client  /usr/local/etc/rc.d/boinc*/
+
+cd /usr/ports/astro/boinc-setiathome-enhanced && make install clean
+#boinc-setiathome-enhanced-6.12_2 Setiathome Enhanced for BOINC
+
+cd /usr/ports/astro/boinc-astropulse && make install clean
+#boinc-astropulse-5.06_3 Astropulse for BOINC
+
+cd /usr/ports/biology/boinc-simap && make install clean
+#boinc-simap-5.10.5.09_4 Similarity Matrix of Proteins project for BOINC
+#compat6x-i386-6.4.604000.200810_3 A convenience package to install the compat6x libraries
+/*Security /usr/local/lib/compat/libftpio.so.6 libwrap.so.4 libroken.so.8...*/
+
+cd /usr/ports/graphics/ksnapshot && make install clean
+
