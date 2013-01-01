@@ -4,6 +4,7 @@ pkg_info -Ix git
 #git-1.7.8           Distributed source code management tool
 pkg_info -Ix perl
 #perl-5.12.4_3       Practical Extraction and Report Language
+cd /usr/ports/devel/git && make rmconfig # rebuild with svn support
 
 cd /usr/ports/devel/mercurial && make install clean
 pkg_info -Ix mercurial
@@ -16,6 +17,8 @@ pkg_info -Ix subversion
 #subversion-1.7.2    Version control system
 pkg_info -Ix tcl
 #tcl-8.5.11          Tool Command Language
+cd /usr/ports/devel/subversion && make rmconfig # rebuild with neon support
+/*Security /usr/local/lib/libneon.so.27*/
 
 cd /usr/ports && make search name=ruby
 The search target requires INDEX-9. Please run make index or make fetchindex.
@@ -143,4 +146,83 @@ cd /usr/ports/biology/boinc-simap && make install clean
 /*Security /usr/local/lib/compat/libftpio.so.6 libwrap.so.4 libroken.so.8...*/
 
 cd /usr/ports/graphics/ksnapshot && make install clean
+# skipped
+
+cd /usr/ports/net-p2p/transmission && make install clean
+#transmission-2.42   The "meta-port" for Transmission BitTorrent client
+/*Security /usr/local/bin/transmission-gtk */
+
+cd /usr/ports/security/tor && make install clean
+#tor-0.2.2.34        An anonymizing overlay network for TCP
+/*Security /usr/local/bin/tor-resolve tor-gencert tor */
+
+cd /usr/ports/www/privoxy && make install clean
+#privoxy-3.0.18      Privoxy is a web proxy with advanced filtering capabilities
+/*Security /usr/local/sbin/privoxy */
+
+cd /usr/ports/misc/dejagnu && make install clean
+#dejagnu-1.5         Automated program/system tester
+#tcl-8.4.19_3,1      Tool Command Language
+#tk-8.4.19_2,2       Graphical toolkit for Tcl
+#expect-5.43.0_3     A sophisticated scripter based on tcl/tk
+
+cd /usr/ports/net-mgmt/vidalia && make install clean
+#vidalia-0.2.15      A graphical Tor controller based on Qt 4.x
+#qt4-assistant-4.7.4_1 Qt documentation browser
+#qt4-clucene-4.7.4   QtCLucene full text search library wrapper
+#qt4-corelib-4.7.4   Qt core library
+#qt4-dbus-4.7.4      Qt4 bindings for the D-BUS messaging system
+#qt4-declarative-4.7.4 Qt4 framework for building highly dynamic user interfaces
+#qt4-designer-4.7.4_1 Qt ui editor
+#qt4-doc-4.7.4       Multiplatform C++ application framework
+#qt4-gui-4.7.4       Qt graphical user interface library
+#qt4-help-4.7.4      QtHelp module provides QHelpEngine API and is used by Assis
+#qt4-linguist-4.7.4_1 Qt localisation tool
+#qt4-moc-4.7.4       Qt meta object compiler
+#qt4-network-4.7.4   Qt network library
+#qt4-opengl-4.7.4    Qt OpenGL library
+#qt4-qmake-4.7.4     The build utility of the Qt project
+#qt4-qt3support-4.7.4 Qt3 compatibility library
+#qt4-qtestlib-4.7.4  Qt unit testing library
+#qt4-rcc-4.7.4       Qt resource compiler
+#qt4-script-4.7.4    Qt script
+#qt4-sql-4.7.4       Qt SQL library
+#qt4-sqlite-plugin-4.7.4 Qt SQLite 3.x database plugin
+#qt4-svg-4.7.4       Qt SVG library
+#qt4-uic-4.7.4       Qt user interface compiler
+#qt4-webkit-4.7.4    Qt4 WebKit engine
+#qt4-xml-4.7.4       Qt XML library
+#qt4-xmlpatterns-4.7.4 XQuery 1.0 and XPath 2.0 support for Qt4
+
+cd /usr/ports/lang/slisp && make install clean
+#slisp-1.2           A simple Lisp interpreter
+
+cd /usr/ports/net-p2p/hrktorrent && make install clean
+#hrktorrent-0.3.5_1  A light console torrent client using rasterbar's libtorrent
+/*Security /usr/local/lib/libtorrent-rasterbar.so.5 */
+#libtorrent-rasterbar-0.14.12_1 A C++ library implementing a BitTorrent client
+#boost-jam-1.45.0    Build tool from the boost.org
+#boost-libs-1.45.0_1 Free portable C++ libraries (without Boost.Python)
+#icu-4.8.1.1         International Components for Unicode (from IBM)
+#GeoIP-1.4.8_1       Find the country that any IP address or hostname originates
+
+cd /usr/ports/graphics/epdfview && make install clean
+#epdfview-0.1.8_3    A lightweight PDF document viewer
+#poppler-0.18.0      A PDF rendering library
+#poppler-data-0.4.5  Poppler encoding data
+#poppler-glib-0.18.0 Glib bindings to poppler
+#*#cppunit-1.12.1      C++ port of the JUnit framework for unit testing
+#openjpeg-1.3_2      An open-source JPEG 2000 codec
+
+cd /usr/ports/graphics/mupdf && make install clean
+#mupdf-0.9,1         Lightweight PDF viewer and toolkit
+
+cd /usr/ports/lang/gcl && make install clean
+#gcl-2.6.7_7         GNU Common Lisp
+/*Security /usr/local/lib/gcl-2.6.7/unixport/saved_ansi_gcl*/
+#tk-8.5.11           Graphical toolkit for Tcl
+
+cd /usr/ports/lang/clisp && make install
+#clisp-2.49
+/*Error code 71 installation could not be complete- man clisp works luckily!*/
 

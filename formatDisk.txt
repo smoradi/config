@@ -1,0 +1,7 @@
+dd if=/dev/zero of=/dev/da0 bs=1k count=1
+fdisk -BI da0
+bsdlabel -B -w da0s1 auto
+bsdlabel -e da0s1
+mkdir -p /mnt/first
+newfs /dev/da0s1a
+mount /dev/da0s1a /mnt/first

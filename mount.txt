@@ -5,3 +5,7 @@ mount_msdosfs /dev/da0s1 /mnt/usbX
 setxkbmap -model pc104 -layout us,ir -option grp:rctrl_rshift_toggle
 dd if=9.0-RELEASE-i386-memstick.img of=/dev/da0 bs=10240 conv=sync
 dump -0Lauf /mnt/1usb/20121025/ada0s3g.dump /dev/ada0s3g
+
+mount -t msdosfs -o -m=644,-M=755 /dev/da0 /mnt/username/
+
+mount -t ext2fs /dev/da0s2 /mnt/2usb/ 

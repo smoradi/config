@@ -55,9 +55,6 @@ vim .elinks/elinks.conf
 
 vi /etc/ssh/sshd_config && uncoment PermitRootLogin no
 
-defaultOrNot.txt  [Git(master)]Line:59/59[100%]Col:1Buf:#1[34][0x22]
-"defaultOrNot.txt" 59L, 1634C
-
 vi /etc/hosts.allow && add following lines on end but comment ALL : ALL : allow
 mysqld : localhost : allow
 mysqld : ALL : deny

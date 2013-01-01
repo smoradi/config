@@ -36,3 +36,4 @@ vi /usr/local/etc/maven/setenv.sh && export JAVA_HOME=/usr/local/openjdk6
 netstat -a | egrep 'Proto|LISTEN'
 netstat -an | egrep 'Proto|LISTEN'
 mount_msdosfs /dev/da0s1 /mnt/usbX
+scp -i ssh.pem /home/localuser/Desktop/file.txt user@remotehost:~/
