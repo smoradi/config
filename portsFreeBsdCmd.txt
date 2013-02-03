@@ -226,3 +226,20 @@ cd /usr/ports/lang/clisp && make install
 #clisp-2.49
 /*Error code 71 installation could not be complete- man clisp works luckily!*/
 
+cd /usr/ports/graphics/gnash && make install clean
+#gnash-0.8.9_1       GNU Flash movie player
+#sdl-1.2.14_2,2      Cross-platform multimedia development API
+#nasm-2.09.10,1      General-purpose multi-platform x86 and amd64 assembler
+#aalib-1.4.r5_6      An ascii art library
+#libogg-1.2.2,4      Ogg bitstream library
+#agg-2.5_6           A High Quality Rendering Engine for C++
+#speex-1.2.r1_3,1    An open-source patent-free voice codec
+#libungif-4.1.4_5    Tools and library routines for working with GIF images
+
+cd /usr/ports/multimedia/gstreamer-ffmepg && make install clean
+#gstreamer-ffmpeg-0.10.13 GStreamer plug-in for manipulating MPEG video streams
+
+cd /usr/ports/net/vmware-vsphere-cli && make install clean
+#vmware-vsphere-cli-4.1.0_1 VMware vSphere SDK for Perl with CLI tools
+#e2fsprogs-libuuid-1.41.14 UUID library from e2fsprogs package
+#p5-* plus many Perl5 packages
