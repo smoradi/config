@@ -11,3 +11,4 @@ template1=> \l
 template1=> \d
 template1=> \d table
 template1=> \d+ table
+

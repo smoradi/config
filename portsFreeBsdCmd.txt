@@ -243,3 +243,15 @@ cd /usr/ports/net/vmware-vsphere-cli && make install clean
 #vmware-vsphere-cli-4.1.0_1 VMware vSphere SDK for Perl with CLI tools
 #e2fsprogs-libuuid-1.41.14 UUID library from e2fsprogs package
 #p5-* plus many Perl5 packages
+
+cd /usr/ports/www/tomcat6 && make install clean
+#tomcat-6.0.33_1     Open-source Java web server by Apache, 6.x branch
+
+cd /usr/ports/security/sshguard && make install clean
+#sshguard-1.5_1      Protect hosts from brute force attacks against ssh and othe
+
+cd /usr/ports/net-p2p/rtorrent && make install clean
+#rtorrent-0.8.9      BitTorrent Client written in C++
+/*Security /usr/local/bin/rtorrent */
+#libtorrent-0.12.9   BitTorrent Library written in C++
+#libsigc++-2.2.10    Callback Framework for C++
