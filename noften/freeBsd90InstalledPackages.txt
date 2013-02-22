@@ -130,7 +130,9 @@ gnomehier-2.3_12    A utility port that creates the GNOME directory tree
 gnutls-2.12.14      GNU Transport Layer Security library
 gobject-introspection-0.10.8 Generate interface introspection data for GObject libraries
 gpac-libgpac-0.4.5_4,1 Gpac MPEG-4 Systems library and headers
+gperf-3.0.3         Generates perfect hash functions for sets of keywords
 gsfonts-8.11_5      Standard Fonts for Ghostscript
+gsnapshot-1.1_3     A gtk+ based screen capture
 gstreamer-0.10.35   Development framework for creating media applications
 gstreamer-ffmpeg-0.10.13 GStreamer plug-in for manipulating MPEG video streams
 gstreamer-plugins-0.10.35_1,3 GStreamer written collection of plugins handling several me
@@ -189,6 +191,7 @@ libXp-1.0.1,1       X print library
 libXpm-3.5.9        X Pixmap library
 libXrandr-1.3.2     X Resize and Rotate extension library
 libXrender-0.9.6    X Render extension library
+libXres-1.0.5       X Resource usage library
 libXt-1.0.9         X Toolkit library
 libXtst-1.2.0       X Test extension
 libXv-1.0.6,1       X Video Extension library
@@ -234,6 +237,7 @@ libungif-4.1.4_5    Tools and library routines for working with GIF images
 libvolume_id-0.81.1 Library to provide file system type information
 libvorbis-1.3.2,3   Audio compression codec library
 libvpx-0.9.7        VP8 Codec SDK
+libwnck-2.30.6      Library used for writing pagers and taskslists
 libxcb-1.7          The X protocol C-language Binding (XCB) library
 libxkbfile-1.0.7    XKB file library
 libxkbui-1.0.2_1    The xkbui library
@@ -391,6 +395,7 @@ slisp-1.2           A simple Lisp interpreter
 speex-1.2.r1_3,1    An open-source patent-free voice codec
 sqlite3-3.7.9       An SQL database engine in a C library
 sshguard-1.5_1      Protect hosts from brute force attacks against ssh and othe
+startup-notification-0.10_2 Library that supports startup notification spec from freede
 subversion-1.7.2    Version control system
 swt-devel-3.6.2,1   Standard Widget Toolkit for Java
 t1lib-5.1.2_1,1     A Type 1 Rasterizer Library for UNIX/X11
@@ -421,6 +426,7 @@ x264-0.116.2076     Library and tool for encoding H.264/AVC video streams
 xauth-1.0.6         X authority file utility
 xbitmaps-1.1.1      X.Org bitmaps data
 xcb-proto-1.6       The X protocol C-language Binding (XCB) protocol
+xcb-util-0.3.6_1    A module with libxcb/libX11 extension/replacement libraries
 xcmiscproto-1.2.1   XCMisc extension headers
 xdg-utils-1.0.2_5   Tools to allow all applications to integrate with the free 
 xextproto-7.2.0     XExt extension headers

@@ -255,3 +255,6 @@ cd /usr/ports/net-p2p/rtorrent && make install clean
 /*Security /usr/local/bin/rtorrent */
 #libtorrent-0.12.9   BitTorrent Library written in C++
 #libsigc++-2.2.10    Callback Framework for C++
+
+cd /usr/ports/graphics/gsnapshot && make install clean
+#gsnapshot-1.1_3     A gtk+ based screen capture
