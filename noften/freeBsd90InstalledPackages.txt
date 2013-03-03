@@ -32,6 +32,7 @@ boost-jam-1.45.0    Build tool from the boost.org
 boost-libs-1.45.0_1 Free portable C++ libraries (without Boost.Python)
 ca_root_nss-3.12.11_1 The root certificate bundle from the Mozilla Project
 cairo-1.10.2_2,1    Vector graphics library with cross-device output support
+cantarell-fonts-0.0.6 Cantarell, a Humanist sans-serif font family
 cdrtools-3.00_1     CD/DVD/BluRay and ISO-9660 image creation and extraction to
 celt-0.11.3         The CELT ultra-low delay audio codec
 chromium-15.0.874.121 A mostly BSD-licensed web browser based on WebKit and Gtk+
@@ -69,8 +70,10 @@ droid-fonts-ttf-20110324 The Droid typeface family
 e2fsprogs-libuuid-1.41.14 UUID library from e2fsprogs package
 eclipse-3.6.2       An open extensible IDE for anything and nothing in particul
 eclipse-PropertiesEditor-4.8.2_3 Properties editor for eclipse
+eclipse-devel-3.7.0_3 An open extensible IDE for anything and nothing in particul
 eggdbus-0.6_1       D-Bus bindings for GObject
 elinks-0.11.7_2     Elinks - links text WWW browser with enhancements
+emacs-23.3_6,2      GNU editing macros
 en-freebsd-doc-20111014 Documentation from the FreeBSD Documentation Project
 encodings-1.0.4,1   X.Org Encoding fonts
 epdfview-0.1.8_3    A lightweight PDF document viewer
@@ -110,11 +113,13 @@ fonteditfs-1.2      A Full Screen Syscons Font Editor
 fontsproto-2.1.1    Fonts extension headers
 freetype2-2.4.7     A free and portable TrueType font rendering engine
 frei0r-1.3_1        Minimalistic plugin API for video effects
+fribidi-0.19.2_1    A Free Implementation of the Unicode Bidirectional Algorith
 gamin-0.1.10_4      A file and directory monitoring system
 gawk-4.0.0          The GNU version of Awk
 gccmakedep-1.0.2    Create dependencies in makefiles using 'gcc -M'
 gcl-2.6.7_7         GNU Common Lisp
 gconf2-2.32.0_2     A configuration database system for GNOME
+gd-2.0.35_7,1       A graphics library for fast creation of images
 gdbm-1.9.1          The GNU database manager
 gdk-pixbuf-2.23.5_1 A graphic library for GTK+
 getopt-1.1.4_2      A getopt(1) replacement that supports GNU-style long option
@@ -123,11 +128,13 @@ ghostscript9-9.02_4 Ghostscript 9.x PostScript interpreter
 gio-fam-backend-2.28.8 FAM backend for GLib\'s GIO library
 git-1.7.8           Distributed source code management tool
 glib-2.28.8_2       Some useful routines of C programming (current stable versi
+glib-networking-2.28.7_3 Network-related giomodules for glib
 glproto-1.4.12      GLX extension headers
 gmake-3.82          GNU version of 'make' utility
 gmp-5.0.2           A free library for arbitrary precision arithmetic
 gnash-0.8.9_1       GNU Flash movie player
 gnome-doc-utils-0.20.3 GNOME doc utils
+gnome-icon-theme-2.31.0_1 A collection of icons for the GNOME 2 desktop
 gnome-mime-data-2.18.0_4 A MIME and Application database for GNOME
 gnome-vfs-2.24.4    GNOME Virtual File System
 gnome_subr-1.0      Common startup and shutdown subroutines used by GNOME scrip
@@ -137,18 +144,22 @@ gobject-introspection-0.10.8 Generate interface introspection data for GObject l
 google-perftools-1.8.3 Fast, multi-threaded malloc() and nifty performance analysi
 gpac-libgpac-0.4.5_4,1 Gpac MPEG-4 Systems library and headers
 gperf-3.0.3         Generates perfect hash functions for sets of keywords
+gsettings-desktop-schemas-3.0.1 Collection of globally shared GSetting schemas
 gsfonts-8.11_5      Standard Fonts for Ghostscript
 gsnapshot-1.1_3     A gtk+ based screen capture
 gstreamer-0.10.35   Development framework for creating media applications
 gstreamer-ffmpeg-0.10.13 GStreamer plug-in for manipulating MPEG video streams
 gstreamer-plugins-0.10.35_1,3 GStreamer written collection of plugins handling several me
 gtk-2.24.6          Gimp Toolkit for X11 GUI (previous stable version)
+gtk-engines2-2.20.2 Theme engine for the GTK+-2.0 toolkit
 gtk-update-icon-cache-2.24.6 gtk-update-icon-cache utility from the Gtk+ toolkit.
+gvfs-1.6.6_1        GNOME virtual file system
 hal-0.5.14_17       Hardware Abstraction Layer for simplifying device access
 help2man-1.40.4     Automatically generating simple manual pages from program o
 hicolor-icon-theme-0.12 A high-color icon theme shell from the FreeDesktop project
 hrktorrent-0.3.5_1  A light console torrent client using rasterbar's libtorrent
 iceauth-1.0.5       ICE authority file utility for X
+icon-naming-utils-0.8.90 Utilities of the Tango project
 icu-4.8.1.1         International Components for Unicode (from IBM)
 ilmbase-1.0.1_1     ILM Base libraries a.k.a. Half, IlmThread, Imath and Iex
 imake-1.0.4,1       Imake and other utilities from X.Org
@@ -206,8 +217,10 @@ libXxf86vm-1.1.1    X Vidmode Extension
 libart_lgpl-2.3.21,1 Library for high-performance 2D graphics
 libaudiofile-0.2.7  A sound library for SGI audio file
 libbonobo-2.32.0    A component and compound document system for GNOME2
+libbonoboui-2.24.4  GUI frontend to the libbonobo component of GNOME 2
 libcanberra-0.28_1  Implementation of the Freedesktop sound theme spec
 libcheck-0.9.8      A unit test framework for C
+libcroco-0.6.2_1    CSS2 parsing library
 libdrm-2.4.12_1     Userspace interface to kernel Direct Rendering Module servi
 libevent-1.4.14b_2  Provides an API to execute callback functions on certain ev
 libevent2-2.0.16    API for executing callback functions on events or timeouts
@@ -218,8 +231,12 @@ libgcrypt-1.5.0     General purpose crypto library based on code used in GnuPG
 libgee-0.6.2.1      GObject collection library
 libglade2-2.6.4_4   GNOME glade library
 libglut-7.4.4       OpenGL utility toolkit
+libgnome-2.32.0     Libraries for GNOME, a GNU desktop environment
 libgnome-keyring-2.32.0_1 A program that keeps passwords and other secrets
+libgnomecanvas-2.30.3 A graphics library for GNOME
+libgnomeui-2.24.4   Libraries for the GNOME GUI, a GNU desktop environment
 libgpg-error-1.10   Common error values for all GnuPG components
+libgsf-1.14.21      An extensible i/o abstraction for dealing with structured f
 libiconv-1.13.1_1   A character set conversion library
 libidn-1.22         Internationalized Domain Names command line tool
 libltdl-2.4_1       System independent dlopen wrapper
@@ -228,13 +245,17 @@ libmng-1.0.10_2     Multiple-image Network Graphics (MNG) reference library
 libmspack-0.2_1     A library for Microsoft compression formats
 libnotify-0.7.3_1   A library for desktop notifications
 libogg-1.2.2,4      Ogg bitstream library
+libotf-0.9.12       Library for handling OpenType fonts
 libpciaccess-0.12.1 Generic PCI access library
 libproxy-0.4.6      Library that provides automatic proxy configuration managem
 libpthread-stubs-0.3_3 This library provides weak aliases for pthread functions
+librsvg2-2.34.1     Library for parsing and rendering SVG vector-graphic files
 libsamplerate-0.1.8_2 Secret Rabbit Code: a Sample Rate Converter for audio
 libsigc++-2.2.10    Callback Framework for C++
 libsigsegv-2.10     Handling page faults in user mode
 libsndfile-1.0.25   Reading and writing files containing sampled sound (like WA
+libsoup-2.34.3      A SOAP (Simple Object Access Protocol) implementation in C
+libsoup-gnome-2.34.3_1 A SOAP (Simple Object Access Protocol) implementation in C
 libtasn1-2.11       ASN.1 structure parser library
 libthai-0.1.5_4     Thai language support library
 libtheora-1.1.1_2   Theora video codec for the Ogg multimedia streaming system
@@ -254,6 +275,8 @@ libxslt-1.1.26_3    The XSLT C library for GNOME
 libxul-1.9.2.24     Mozilla runtime package that can be used to bootstrap XUL+X
 luit-1.1.0          Locale and ISO 2022 support for Unicode terminals
 lynx-2.8.7.1_1,1    A non-graphical, text-based World-Wide Web client
+m17n-db-1.6.2       Data files for the m17n library
+m17n-lib-1.6.2      A library for the multilingual text handling
 m4-1.4.16,1         GNU m4
 mDNSResponder-333.10 Apple's mDNSResponder
 makedepend-1.0.3,1  A dependency generator for makefiles
@@ -328,6 +351,8 @@ p5-XML-LibXML-1.88,1 Interface to Gnome libxml2 library
 p5-XML-NamespaceSupport-1.11 A simple generic namespace support class
 p5-XML-Parser-2.41  Perl extension interface to James Clark's XML parser, expat
 p5-XML-SAX-0.96     Simple API for XML
+p5-XML-SAX-Expat-0.40 Simple API for XML
+p5-XML-Simple-2.18  Trivial API for reading and writing XML (esp config files)
 p5-libwww-6.02_1    Perl5 library for WWW access
 p5-subversion-1.7.2 Perl bindings for Version control system
 pam_kde-1.0         PAM modules for KDE Display Manager
@@ -391,6 +416,7 @@ rarian-0.8.1        An OMF help system based on the Freedesktop specification
 recordproto-1.14.1  RECORD extension headers
 renderproto-0.11.1  RenderProto protocol headers
 resourceproto-1.2.0 Resource extension headers
+rsync-3.0.9         A network file distribution/synchronization utility
 rtorrent-0.8.9      BitTorrent Client written in C++
 ruby-1.8.7.352_2,1  An object-oriented interpreted scripting language
 ruby18-gems-1.8.11  Package management framework for the Ruby language

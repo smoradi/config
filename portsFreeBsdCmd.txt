@@ -162,37 +162,9 @@ cd /usr/ports/www/privoxy && make install clean
 
 cd /usr/ports/misc/dejagnu && make install clean
 #dejagnu-1.5         Automated program/system tester
-#tcl-8.4.19_3,1      Tool Command Language
-#tk-8.4.19_2,2       Graphical toolkit for Tcl
-#expect-5.43.0_3     A sophisticated scripter based on tcl/tk
 
 cd /usr/ports/net-mgmt/vidalia && make install clean
 #vidalia-0.2.15      A graphical Tor controller based on Qt 4.x
-#qt4-assistant-4.7.4_1 Qt documentation browser
-#qt4-clucene-4.7.4   QtCLucene full text search library wrapper
-#qt4-corelib-4.7.4   Qt core library
-#qt4-dbus-4.7.4      Qt4 bindings for the D-BUS messaging system
-#qt4-declarative-4.7.4 Qt4 framework for building highly dynamic user interfaces
-#qt4-designer-4.7.4_1 Qt ui editor
-#qt4-doc-4.7.4       Multiplatform C++ application framework
-#qt4-gui-4.7.4       Qt graphical user interface library
-#qt4-help-4.7.4      QtHelp module provides QHelpEngine API and is used by Assis
-#qt4-linguist-4.7.4_1 Qt localisation tool
-#qt4-moc-4.7.4       Qt meta object compiler
-#qt4-network-4.7.4   Qt network library
-#qt4-opengl-4.7.4    Qt OpenGL library
-#qt4-qmake-4.7.4     The build utility of the Qt project
-#qt4-qt3support-4.7.4 Qt3 compatibility library
-#qt4-qtestlib-4.7.4  Qt unit testing library
-#qt4-rcc-4.7.4       Qt resource compiler
-#qt4-script-4.7.4    Qt script
-#qt4-sql-4.7.4       Qt SQL library
-#qt4-sqlite-plugin-4.7.4 Qt SQLite 3.x database plugin
-#qt4-svg-4.7.4       Qt SVG library
-#qt4-uic-4.7.4       Qt user interface compiler
-#qt4-webkit-4.7.4    Qt4 WebKit engine
-#qt4-xml-4.7.4       Qt XML library
-#qt4-xmlpatterns-4.7.4 XQuery 1.0 and XPath 2.0 support for Qt4
 
 cd /usr/ports/lang/slisp && make install clean
 #slisp-1.2           A simple Lisp interpreter
@@ -201,18 +173,9 @@ cd /usr/ports/net-p2p/hrktorrent && make install clean
 #hrktorrent-0.3.5_1  A light console torrent client using rasterbar's libtorrent
 /*Security /usr/local/lib/libtorrent-rasterbar.so.5 */
 #libtorrent-rasterbar-0.14.12_1 A C++ library implementing a BitTorrent client
-#boost-jam-1.45.0    Build tool from the boost.org
-#boost-libs-1.45.0_1 Free portable C++ libraries (without Boost.Python)
-#icu-4.8.1.1         International Components for Unicode (from IBM)
-#GeoIP-1.4.8_1       Find the country that any IP address or hostname originates
 
 cd /usr/ports/graphics/epdfview && make install clean
 #epdfview-0.1.8_3    A lightweight PDF document viewer
-#poppler-0.18.0      A PDF rendering library
-#poppler-data-0.4.5  Poppler encoding data
-#poppler-glib-0.18.0 Glib bindings to poppler
-#*#cppunit-1.12.1      C++ port of the JUnit framework for unit testing
-#openjpeg-1.3_2      An open-source JPEG 2000 codec
 
 cd /usr/ports/graphics/mupdf && make install clean
 #mupdf-0.9,1         Lightweight PDF viewer and toolkit
@@ -228,21 +191,12 @@ cd /usr/ports/lang/clisp && make install
 
 cd /usr/ports/graphics/gnash && make install clean
 #gnash-0.8.9_1       GNU Flash movie player
-#sdl-1.2.14_2,2      Cross-platform multimedia development API
-#nasm-2.09.10,1      General-purpose multi-platform x86 and amd64 assembler
-#aalib-1.4.r5_6      An ascii art library
-#libogg-1.2.2,4      Ogg bitstream library
-#agg-2.5_6           A High Quality Rendering Engine for C++
-#speex-1.2.r1_3,1    An open-source patent-free voice codec
-#libungif-4.1.4_5    Tools and library routines for working with GIF images
 
 cd /usr/ports/multimedia/gstreamer-ffmepg && make install clean
 #gstreamer-ffmpeg-0.10.13 GStreamer plug-in for manipulating MPEG video streams
 
 cd /usr/ports/net/vmware-vsphere-cli && make install clean
 #vmware-vsphere-cli-4.1.0_1 VMware vSphere SDK for Perl with CLI tools
-#e2fsprogs-libuuid-1.41.14 UUID library from e2fsprogs package
-#p5-* plus many Perl5 packages
 
 cd /usr/ports/www/tomcat6 && make install clean
 #tomcat-6.0.33_1     Open-source Java web server by Apache, 6.x branch
@@ -254,7 +208,6 @@ cd /usr/ports/net-p2p/rtorrent && make install clean
 #rtorrent-0.8.9      BitTorrent Client written in C++
 /*Security /usr/local/bin/rtorrent */
 #libtorrent-0.12.9   BitTorrent Library written in C++
-#libsigc++-2.2.10    Callback Framework for C++
 
 cd /usr/ports/graphics/gsnapshot && make install clean
 #gsnapshot-1.1_3     A gtk+ based screen capture
@@ -264,3 +217,11 @@ cd /usr/ports/java/eclipse-propedit && make install clean
 
 cd /usr/ports/www/chromium && make install clean
 #chromium-15.0.874.121 A mostly BSD-licensed web browser based on WebKit and Gtk+
+/*Security /usr/local/share/chormium/chrome */
+
+cd /usr/ports/java/eclipse-devel && make install clean
+#eclipse-devel-3.7.0_3 An open extensible IDE for anything and nothing in particul
+
+cd /usr/ports/editors/emacs && make install clean
+#emacs-23.3_6,2      GNU editing macros
+/*Security /usr/local/libexec/emacs/23.3/i386-portbld-freebsd9.0/update-game-score /usr/local/bin/emacs emacs-23.3 */
