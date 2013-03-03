@@ -258,3 +258,9 @@ cd /usr/ports/net-p2p/rtorrent && make install clean
 
 cd /usr/ports/graphics/gsnapshot && make install clean
 #gsnapshot-1.1_3     A gtk+ based screen capture
+
+cd /usr/ports/java/eclipse-propedit && make install clean
+#eclipse-PropertiesEditor-4.8.2_3 Properties editor for eclipse
+
+cd /usr/ports/www/chromium && make install clean
+#chromium-15.0.874.121 A mostly BSD-licensed web browser based on WebKit and Gtk+
