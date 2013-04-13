@@ -52,3 +52,4 @@ git push origin production:production
 git push origin :production
 # clean local deleted remote branches
 git remote prune origin
+git config --global http.sslverify 1

@@ -1,0 +1,7 @@
+svn checkout http://svn.apache.org/repos/asf/commons/proper/daemon/trunk common-daemon
+cd src/native/unix
+sh support/buildconf.sh
+./configure --with-java=/usr/local/openjdk6
+make
+./jsvc -help
+export JAVA_HOME #If message says JAVA_HOME not found

@@ -155,6 +155,7 @@ cd /usr/ports/net-p2p/transmission && make install clean
 cd /usr/ports/security/tor && make install clean
 #tor-0.2.2.34        An anonymizing overlay network for TCP
 /*Security /usr/local/bin/tor-resolve tor-gencert tor */
+cd /usr/ports/security/tor-devel && make install clean
 
 cd /usr/ports/www/privoxy && make install clean
 #privoxy-3.0.18      Privoxy is a web proxy with advanced filtering capabilities
@@ -225,3 +226,25 @@ cd /usr/ports/java/eclipse-devel && make install clean
 cd /usr/ports/editors/emacs && make install clean
 #emacs-23.3_6,2      GNU editing macros
 /*Security /usr/local/libexec/emacs/23.3/i386-portbld-freebsd9.0/update-game-score /usr/local/bin/emacs emacs-23.3 */
+
+cd /usr/ports/security/openssl && make install clean
+#openssl-1.0.0_7     SSL and crypto library
+/*Security /usr/local/bin/openssl /usr/local/lib/libcrypto.so.7 */
+
+cd /usr/ports/www/tinyproxy && make install clean
+#tinyproxy-1.8.3,1   A small, efficient HTTP proxy server
+/*Security /usr/local/sbin/tinyproxy */
+
+cd /usr/ports/security/openvpn && make install clean
+#openvpn-2.2.1_1     Secure IP/Ethernet tunnel daemon
+/*Security /usr/local/sbin/openvpn */
+
+cd /usr/ports/www/nspluginwrapper
+#nspluginwrapper-1.4.4 A compatibility plugin for Mozilla NPAPI plugins
+/*Security /usr/local/lib/nspluginwrapper/i386/freebsd/npplayer npwrapper.so /linux/npviewer.bin */
+
+cd /usr/ports/emulators/linux_base-f10
+#linux_base-f10-10_4 Base set of packages needed in Linux mode for i386/amd64 (L
+/*Security /compat/linux/lib/libdb-4.7.so libselinux.so libresolv-2.9.so libgssrpc.so.4.0 */
+
+cd /usr/ports/games/fortunate && make install clean
