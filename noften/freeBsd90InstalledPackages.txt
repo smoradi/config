@@ -117,6 +117,7 @@ frei0r-1.3_1        Minimalistic plugin API for video effects
 fribidi-0.19.2_1    A Free Implementation of the Unicode Bidirectional Algorith
 gamin-0.1.10_4      A file and directory monitoring system
 gawk-4.0.0          The GNU version of Awk
+gcc-4.2.5.20090325_5 GNU Compiler Collection 4.2
 gccmakedep-1.0.2    Create dependencies in makefiles using 'gcc -M'
 gcl-2.6.7_7         GNU Common Lisp
 gconf2-2.32.0_2     A configuration database system for GNOME
@@ -140,6 +141,7 @@ gnome-mime-data-2.18.0_4 A MIME and Application database for GNOME
 gnome-vfs-2.24.4    GNOME Virtual File System
 gnome_subr-1.0      Common startup and shutdown subroutines used by GNOME scrip
 gnomehier-2.3_12    A utility port that creates the GNOME directory tree
+gnustep-make-2.6.1  GNUstep makefile package
 gnutls-2.12.14      GNU Transport Layer Security library
 gobject-introspection-0.10.8 Generate interface introspection data for GObject libraries
 google-perftools-1.8.3 Fast, multi-threaded malloc() and nifty performance analysi

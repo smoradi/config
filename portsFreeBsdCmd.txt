@@ -248,3 +248,5 @@ cd /usr/ports/emulators/linux_base-f10
 /*Security /compat/linux/lib/libdb-4.7.so libselinux.so libresolv-2.9.so libgssrpc.so.4.0 */
 
 cd /usr/ports/games/fortunate && make install clean
+/*Error code 1 gnustep-base-1.19.3_5 needs an objective C compiler. */
+
