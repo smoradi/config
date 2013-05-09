@@ -331,6 +331,7 @@ openldap-client-2.4.26 Open source LDAP client implementation
 openssl-1.0.0_7     SSL and crypto library
 openvpn-2.2.1_1     Secure IP/Ethernet tunnel daemon
 opera-11.60         Blazingly fast, full-featured, standards-compliant browser
+opera-linuxplugins-11.60 Linux plugin support for the native Opera browser
 orc-0.4.14_1        Library and toolset to operate arrays of data
 p11-kit-0.9         Library for loading and enumurating of PKCS#11 modules
 p5-Archive-Zip-1.30_1 Perl module to create, manipulate, read, and write Zip arch

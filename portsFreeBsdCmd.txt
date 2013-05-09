@@ -263,3 +263,4 @@ cd /opt/ports/www/linux-f10-flashplugin11 && make install clean
 /*Security /usr/local/lib/npapi/linux-f10-flashplugin/libflashplayer.so */
 
 cd /usr/ports/www/opera-linuxplugins && make install clean
+#opera-linuxplugins-11.60 Linux plugin support for the native Opera browser
