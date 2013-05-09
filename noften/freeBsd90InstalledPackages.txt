@@ -278,12 +278,21 @@ libxslt-1.1.26_3    The XSLT C library for GNOME
 libxul-1.9.2.24     Mozilla runtime package that can be used to bootstrap XUL+X
 linux-f10-atk-1.24.0 Accessibility Toolkit, Linux/i386 binary (Linux Fedora 10)
 linux-f10-cairo-1.8.0_1 Vector graphics library Cairo (Linux Fedora 10)
+linux-f10-curl-7.19.6_1 The command line tool for transferring files with URL synta
+linux-f10-cyrus-sasl2-2.1.22_1 RFC 2222 SASL (Simple Authentication and Security Layer) (L
 linux-f10-expat-2.0.1 Linux/i386 binary port of Expat XML-parsing library (Linux 
+linux-f10-flashplugin-11.2r202.280 Adobe Flash Player NPAPI Plugin
 linux-f10-fontconfig-2.6.0 An XML-based font configuration API for X Windows (Linux Fe
 linux-f10-gtk2-2.14.7_3 GTK+ library, version 2.X (Linux Fedora 10)
 linux-f10-jpeg-6b   RPM of the JPEG lib (Linux Fedora 10)
+linux-f10-libssh2-0.18 The library implementing the SSH2 protocol (Linux Fedora 10
+linux-f10-nspr-4.7.6 Netscape Portable Runtime (Linux Fedora 10)
+linux-f10-nss-3.12.3.99.3_1 Network Security Services (Linux Fedora 10)
+linux-f10-openldap-2.4.12_1 Lightweight Directory Access Protocol libraries (Linux Fedo
+linux-f10-openssl-0.9.8g The OpenSSL toolkit (Linux Fedora 10)
 linux-f10-pango-1.28.3 The pango library (Linux Fedora 10)
 linux-f10-png-1.2.37_1 RPM of the PNG lib (Linux Fedora 10)
+linux-f10-sqlite3-3.5.9_1 The library that implements an embeddable SQL database engi
 linux-f10-tiff-3.8.2 The TIFF library, Linux/i386 binary (Linux Fedora 10)
 linux-f10-xorg-libs-7.4_1 Xorg libraries (Linux Fedora 10)
 linux_base-f10-10_4 Base set of packages needed in Linux mode for i386/amd64 (L

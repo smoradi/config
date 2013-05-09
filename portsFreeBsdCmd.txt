@@ -250,3 +250,16 @@ cd /usr/ports/emulators/linux_base-f10
 cd /usr/ports/games/fortunate && make install clean
 /*Error code 1 gnustep-base-1.19.3_5 needs an objective C compiler. */
 
+# ATTENTION portsnap is using /opt/ports directory.
+vi /etc/portsnap.conf && PORTSDIR=/opt/ports WORKDIR=/opt/db/portsnap
+portsnap fetch
+#oops! portsnap is still using /usr/ports
+portsnap -f /etc/portsnap.conf -d /opt/db/portsnap -p /opt/ports fetch
+#mv /var/db/portsnap /var/db/portsnap.skipped
+portsnap -f /etc/portsnap.conf -d /opt/db/portsnap -p /opt/ports extract
+
+cd /opt/ports/www/linux-f10-flashplugin11 && make install clean
+#linux-f10-flashplugin-11.2r202.280 Adobe Flash Player NPAPI Plugin
+/*Security /usr/local/lib/npapi/linux-f10-flashplugin/libflashplayer.so */
+
+cd /usr/ports/www/opera-linuxplugins && make install clean
