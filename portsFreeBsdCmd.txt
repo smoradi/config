@@ -260,6 +260,7 @@ portsnap -f /etc/portsnap.conf -d /opt/db/portsnap -p /opt/ports extract
 
 cd /opt/ports/www/linux-f10-flashplugin11 && make install clean
 #linux-f10-flashplugin-11.2r202.280 Adobe Flash Player NPAPI Plugin
+#linux-f10-flashplugin-11.2r202.285 Adobe Flash Player NPAPI Plugin
 /*Security /usr/local/lib/npapi/linux-f10-flashplugin/libflashplayer.so */
 
 cd /usr/ports/www/opera-linuxplugins && make install clean
