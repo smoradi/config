@@ -152,8 +152,8 @@ cd /usr/ports/net-p2p/transmission && make install clean
 #transmission-2.42   The "meta-port" for Transmission BitTorrent client
 /*Security /usr/local/bin/transmission-gtk */
 
-cd /usr/ports/security/tor && make install clean
-#tor-0.2.2.34        An anonymizing overlay network for TCP
+cd /opt/ports/security/tor && make install clean
+#tor-0.2.3.25        An anonymizing overlay network for TCP
 /*Security /usr/local/bin/tor-resolve tor-gencert tor */
 cd /usr/ports/security/tor-devel && make install clean
 
@@ -265,3 +265,15 @@ cd /opt/ports/www/linux-f10-flashplugin11 && make install clean
 
 cd /usr/ports/www/opera-linuxplugins && make install clean
 #opera-linuxplugins-11.60 Linux plugin support for the native Opera browser
+
+cd /opt/ports/www/linux-opera && make install clean
+#linux-opera-11.62_1 A blazingly fast, full-featured, standards-compliant browse
+/*Security /usr/local/lib/linux-opera/opera */
+
+cd /opt/ports/www/linux-firefox && make install clean
+#linux-firefox-21.0,1 Web browser based on the browser portion of Mozilla
+/*Security /usr/local/lib/linux-firefox/libnspr4.so libxul.so */
+
+cd /usr/ports/ftp/wget && make install clean
+#wget-1.13.4_1       Retrieve files from the Net via HTTP(S) and FTP
+/*Security /usr/local/bin/wget */

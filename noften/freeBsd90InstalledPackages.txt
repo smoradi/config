@@ -87,7 +87,6 @@ fcgi-devkit-2.4.0   FastCGI Development Kit
 ffcall-1.10_1       Foreign function call libraries
 fftw3-3.3_1         Fast C routines to compute the Discrete Fourier Transform
 fftw3-float-3.3_1   Fast Discrete Fourier Transform (Single Precision C Routine
-firefox-9.0.1,1     Web browser based on the browser portion of Mozilla
 fixesproto-5.0      Fixes extension headers
 flex-2.5.35_4       Fast lexical analyzer generator
 flock-2.19          Manage locks from shell scripts
@@ -286,6 +285,7 @@ linux-f10-fontconfig-2.6.0 An XML-based font configuration API for X Windows (Li
 linux-f10-gtk2-2.14.7_3 GTK+ library, version 2.X (Linux Fedora 10)
 linux-f10-jpeg-6b   RPM of the JPEG lib (Linux Fedora 10)
 linux-f10-libssh2-0.18 The library implementing the SSH2 protocol (Linux Fedora 10
+linux-f10-nas-libs-1.9.1 Runtime libraries for NAS (Linux Fedora 10)
 linux-f10-nspr-4.7.6 Netscape Portable Runtime (Linux Fedora 10)
 linux-f10-nss-3.12.3.99.3_1 Network Security Services (Linux Fedora 10)
 linux-f10-openldap-2.4.12_1 Lightweight Directory Access Protocol libraries (Linux Fedo
@@ -295,6 +295,7 @@ linux-f10-png-1.2.37_1 RPM of the PNG lib (Linux Fedora 10)
 linux-f10-sqlite3-3.5.9_1 The library that implements an embeddable SQL database engi
 linux-f10-tiff-3.8.2 The TIFF library, Linux/i386 binary (Linux Fedora 10)
 linux-f10-xorg-libs-7.4_1 Xorg libraries (Linux Fedora 10)
+linux-opera-11.62_1 A blazingly fast, full-featured, standards-compliant browse
 linux_base-f10-10_4 Base set of packages needed in Linux mode for i386/amd64 (L
 luit-1.1.0          Locale and ISO 2022 support for Unicode terminals
 lynx-2.8.7.1_1,1    A non-graphical, text-based World-Wide Web client
@@ -330,8 +331,8 @@ openjpeg-1.3_2      An open-source JPEG 2000 codec
 openldap-client-2.4.26 Open source LDAP client implementation
 openssl-1.0.0_7     SSL and crypto library
 openvpn-2.2.1_1     Secure IP/Ethernet tunnel daemon
-opera-11.60         Blazingly fast, full-featured, standards-compliant browser
-opera-linuxplugins-11.60 Linux plugin support for the native Opera browser
+opera-12.15         Blazingly fast, full-featured, standards-compliant browser
+opera-linuxplugins-12.15 Linux plugin support for the native Opera browser
 orc-0.4.14_1        Library and toolset to operate arrays of data
 p11-kit-0.9         Library for loading and enumurating of PKCS#11 modules
 p5-Archive-Zip-1.30_1 Perl module to create, manipulate, read, and write Zip arch
@@ -474,7 +475,7 @@ tinyproxy-1.8.3,1   A small, efficient HTTP proxy server
 tk-8.4.19_2,2       Graphical toolkit for Tcl
 tk-8.5.11           Graphical toolkit for Tcl
 tomcat-6.0.33_1     Open-source Java web server by Apache, 6.x branch
-tor-0.2.2.34        An anonymizing overlay network for TCP
+tor-0.2.3.25        An anonymizing overlay network for TCP
 trapproto-3.4.3     DEC-XTRAP extension headers
 ttmkfdir-3.0.9_2,1  Create fonts.scale file for use with TrueType font server
 unzip-6.0_1         List, test and extract compressed files in a ZIP archive
@@ -485,6 +486,7 @@ videoproto-2.3.1    Video extension headers
 vim-7.3.121         Vi "workalike", with many additional features
 vmware-vsphere-cli-4.1.0_1 VMware vSphere SDK for Perl with CLI tools
 webp-0.1.3          Google WebP image format conversion tool
+wget-1.13.4_1       Retrieve files from the Net via HTTP(S) and FTP
 wxgtk2-2.8.12       The wxWidgets GUI toolkit with GTK+ bindings
 wxgtk2-common-2.8.12 The wxWidgets GUI toolkit (common files)
 x264-0.116.2076     Library and tool for encoding H.264/AVC video streams
