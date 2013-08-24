@@ -87,6 +87,7 @@ fcgi-devkit-2.4.0   FastCGI Development Kit
 ffcall-1.10_1       Foreign function call libraries
 fftw3-3.3_1         Fast C routines to compute the Discrete Fourier Transform
 fftw3-float-3.3_1   Fast Discrete Fourier Transform (Single Precision C Routine
+firefox-9.0.1,1     Web browser based on the browser portion of Mozilla
 fixesproto-5.0      Fixes extension headers
 flex-2.5.35_4       Fast lexical analyzer generator
 flock-2.19          Manage locks from shell scripts

@@ -39,3 +39,5 @@ mount_msdosfs /dev/da0s1 /mnt/usbX
 scp -i ssh.pem /home/localuser/Desktop/file.txt user@remotehost:~/
 tcpdump -A -s0 -i lo0 port 9998
 df -h
+ls ~ | grep -v '^[opt|runtests]'
+shasum example.zip #print sha1
