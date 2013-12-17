@@ -1,0 +1,10 @@
+#Deutsch radio channels
+mpg123 -@ http://www.dradio.de/streaming/dlf_lq_mp3.m3u
+mpg123 -@ http://www.dradio.de/streaming/dradiowissen_lq_mp3.m3u
+mpg123 -@ http://195.190.137.104:8000/deluxemusic.tv/radio_web/mp3.m3u
+mpg123 -@ http://www.dradio.de/streaming/dkultur.m3u
+mpg123 -@ http://www.oldiestar.de/oldie.pls
+mpg123 -@ http://www.listenlive.eu/rs2-kids.m3u
+mpg123 -@ http://streams.ir-media-tec.com/radioteddy.mp3.m3u
+mpg123 -@ http://www.antenne.de/webradio/channels/hits-fuer-kids.m3u
+mpg123 -@ http://streams.ffh.de/ffhchannels/mp3/hqhits4kids.m3u

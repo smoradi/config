@@ -12,6 +12,7 @@ arts-1.5.10_5,1     Audio system for the KDE integrated X11 desktop
 artswrapper-1.5.3   Setuid wrapper for arts
 aspell-0.60.6.1     Spelling checker with better suggestion logic than ispell
 atk-2.0.1           A GNOME accessibility toolkit (ATK)
+aumix-2.9.1         Audio mixer for X11, terminal, or command line
 autoconf-2.13.000227_6 Automatically configure source code on many Un*x platforms 
 autoconf-2.68       Automatically configure source code on many Un*x platforms 
 autoconf-wrapper-20101119 Wrapper script for GNU autoconf
@@ -249,6 +250,7 @@ libmspack-0.2_1     A library for Microsoft compression formats
 libnotify-0.7.3_1   A library for desktop notifications
 libogg-1.2.2,4      Ogg bitstream library
 libotf-0.9.12       Library for handling OpenType fonts
+libpcbsd-8.0        PC-BSD Support Library
 libpciaccess-0.12.1 Generic PCI access library
 libproxy-0.4.6      Library that provides automatic proxy configuration managem
 libpthread-stubs-0.3_3 This library provides weak aliases for pthread functions
@@ -479,6 +481,7 @@ tomcat-6.0.33_1     Open-source Java web server by Apache, 6.x branch
 tor-0.2.3.25        An anonymizing overlay network for TCP
 trapproto-3.4.3     DEC-XTRAP extension headers
 ttmkfdir-3.0.9_2,1  Create fonts.scale file for use with TrueType font server
+unrar-4.00,5        Extract, view & test RAR archives
 unzip-6.0_1         List, test and extract compressed files in a ZIP archive
 v4l_compat-1.0.20110720 Video4Linux IOCTL header files
 vala-0.12.1         Programming language and compiler that converts Vala code i
@@ -488,10 +491,12 @@ vim-7.3.121         Vi "workalike", with many additional features
 vmware-vsphere-cli-4.1.0_1 VMware vSphere SDK for Perl with CLI tools
 webp-0.1.3          Google WebP image format conversion tool
 wget-1.13.4_1       Retrieve files from the Net via HTTP(S) and FTP
+wifimgr-1.9         WiFi Networks Manager
 wxgtk2-2.8.12       The wxWidgets GUI toolkit with GTK+ bindings
 wxgtk2-common-2.8.12 The wxWidgets GUI toolkit (common files)
 x264-0.116.2076     Library and tool for encoding H.264/AVC video streams
 xauth-1.0.6         X authority file utility
+xbattbar-1.4.2_6    Simple battery meter
 xbitmaps-1.1.1      X.Org bitmaps data
 xcb-proto-1.6       The X protocol C-language Binding (XCB) protocol
 xcb-util-0.3.6_1    A module with libxcb/libX11 extension/replacement libraries

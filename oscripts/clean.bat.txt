@@ -1,0 +1,15 @@
+@echo Hello from clean.bat a clean script file.
+@echo Current tmp dir is %TEMP%
+
+cd %TEMP%
+dir
+del /F /S /Q *
+
+@echo Temp is clean except for following files
+dir
+
+cd %TEMP%\..\..
+del /F /S /Q Cookies
+dir
+
+@pause

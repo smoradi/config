@@ -1,0 +1,1 @@
+chrome --proxy-server=";socks=127.0.0.1:9051;sock4=127.0.0.1:9051;sock5=127.0.0.1:9051" --incognito check.torproject.org

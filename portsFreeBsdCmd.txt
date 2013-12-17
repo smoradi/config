@@ -277,3 +277,18 @@ cd /opt/ports/www/linux-firefox && make install clean
 cd /usr/ports/ftp/wget && make install clean
 #wget-1.13.4_1       Retrieve files from the Net via HTTP(S) and FTP
 /*Security /usr/local/bin/wget */
+
+cd /usr/ports/sysutils/xbattbar && make install clean
+#xbattbar-1.4.2_6    Simple battery meter
+
+cd /usr/ports/audio/aumix && make install clean
+#aumix-2.9.1         Audio mixer for X11, terminal, or command line
+
+cd /usr/ports/archives/unrar && make install clean
+#unrar-4.00,5        Extract, view & test RAR archives
+
+cd /usr/ports/net-mgmt/wifimgr && make install clean
+#wifimgr-1.9         WiFi Networks Manager
+/*Security /usr/local/libexec/wifimgrsu */
+
+cd /usr/ports/multimedia/kmplayer && make install clean

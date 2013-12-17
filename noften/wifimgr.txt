@@ -1,0 +1,14 @@
+# To determine wireless interface card you have
+ifconfig
+# wpi0 in my case.
+# To find proper kernel module
+pciconf -lv
+# 3945ABG uses wpi in my case.
+# Make sure the kernel module is loading
+# /boot/loader.conf
+if_wpi_load="YES"
+# Configure the wireless settings in /etc/rc.conf
+wlans_wpi0="wlan0"
+ifconfig_wlan0="WPA DHCP"
+# Scan
+ifconfig wlan0 scan

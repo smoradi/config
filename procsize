@@ -1,0 +1,44 @@
+#!/bin/sh
+# procsize 0.5 smithi 27,29/11/10 .. compare ps -aux VSZ,RSS vs top SIZE,RES
+# found it from http://lists.freebsd.org/pipermail/freebsd-stable/2010-November/060360.html
+tempfile=/tmp/`basename $0`.$$
+vszall=0; rssall=0; procnt=0
+
+ps -aux >$tempfile			# can't update parent vars in pipe
+while read user pid cpu mem vsz rss tt stat started time command; do
+	[ $user = USER ] && continue
+	[ "$command" = "ps -aux" ] && continue	# vs top -t
+	vszall=$((vszall + $vsz))
+	rssall=$((rssall + $rss))		# both KB
+	procnt=$((procnt + 1))
+done <$tempfile
+echo "From ps -aux: $procnt procs, " \
+	"virtual ${vszall}K ($((vszall / 1024))M)," \
+	"resident ${rssall}K ($((rssall / 1024))M)"
+
+oldtop='pid user pri nice size res state time wcpu cpu command' # <= 6.x?
+newtop='pid user thr pri nice size res state time wcpu command' # w/out -H
+ver=`uname -r`; [ "${ver%.*}" -lt 7 ] && varlist=$oldtop || varlist=$newtop
+vszall=0; rssall=0; procnt=0; start=''
+
+top -tS all >$tempfile
+while eval read $varlist; do
+	[ "$pid" ] || continue 			# skip blanks
+	[ $pid = PID ] && start=y && continue
+	[ "$start" ] || continue		# and headers
+	# assume top uses G also (not testable here, let alone T :)
+	[ ${size%G} != $size ] && size=$((${size%G} * 1024))M
+	[ ${size%M} != $size ] && size=$((${size%M} * 1024))K
+	[ ${res%G} != $res ] && res=$((${res%G} * 1024))M
+	[ ${res%M} != $res ] && res=$((${res%M} * 1024))K
+	# temp: check eval results
+	[ ${size%K} = $size ] && echo "error: SIZE=$size" && break
+	[ ${res%K} = $res ] && echo "error: RES=$res" && break
+	vszall=$((vszall + ${size%K}))
+	rssall=$((rssall + ${res%K}))		# both now KB
+	procnt=$((procnt + 1))
+done <$tempfile
+rm $tempfile
+echo "From top -S : $procnt procs, " \
+        "virtual ${vszall}K ($((vszall / 1024))M)," \
+        "resident ${rssall}K ($((rssall / 1024))M)"

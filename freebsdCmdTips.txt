@@ -41,3 +41,4 @@ tcpdump -A -s0 -i lo0 port 9998
 df -h
 ls ~ | grep -v '^[opt|runtests]'
 shasum example.zip #print sha1
+swapinfo
