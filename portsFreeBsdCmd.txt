@@ -292,3 +292,6 @@ cd /usr/ports/net-mgmt/wifimgr && make install clean
 /*Security /usr/local/libexec/wifimgrsu */
 
 cd /usr/ports/multimedia/kmplayer && make install clean
+#kmplayer-0.10.0c_6,2 KDE frontend to MPlayer, Xine, GStreamer
+#mplayer-1.0.r20110329_3 High performance media player supporting many formats
+#mplayer-skins-1.1.2_6 Skins for MPlayer's Graphical User Interface (GUI)
