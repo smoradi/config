@@ -471,6 +471,7 @@ shared-mime-info-0.90 A MIME type database from the FreeDesktop project
 slisp-1.2           A simple Lisp interpreter
 speex-1.2.r1_3,1    An open-source patent-free voice codec
 sqlite3-3.7.9       An SQL database engine in a C library
+squid-3.1.16        HTTP Caching Proxy
 sshguard-1.5_1      Protect hosts from brute force attacks against ssh and othe
 startup-notification-0.10_2 Library that supports startup notification spec from freede
 subversion-1.7.2    Version control system
