@@ -1,0 +1,27 @@
+# Assume you have James installed and want to send signed emails with DKIM
+tar -xzvf apache-jdkim-0.2-bin.tar.gz
+cp apache-jdkim-0.2/lib/* /usr/local/james2.3.1/lib/
+
+vi /usr/local/james2.3.1/apps/james/SAR-INF/config.xml
+
+ <mailetpackages>
+      <mailetpackage>org.apache.james.transport.mailets</mailetpackage>
+      <mailetpackage>org.apache.james.transport.mailets.smime</mailetpackage>
+      <mailetpackage>org.apache.james.jdkim.mailets</mailpackage>
+ </mailetpackages>
+
+<processor name="transport">
+<!-- Note: below mailet need to be just before remote delivery mailet-->
+<!-- But still I had an issue of each email was converted to 7bit twice -->
+
+ <mailet match="All" class="DKIMSign">
+  <signatureTemplate>v=1; s=selector; d=example.com;
+h=date:from:to:message-id:subject; a=rsa-sha256; c=relaxed/relaxed; q=dns/txt; bh=; b=;</signatureTemplate>
+  <privateKey>
+    -----BEGIN RSA PRIVATE KEY-----
+    MIICXAIBAAKBgQDYDaYKXzwVYwqWbLhmuJ66aTAN8wmDR+rfHE8HfnkSOax0oIoT
+    ...
+    tYGRMgAtUXtiOEizBH6bd/orzI9V9sw8yBz+ZqIH25Q=
+    -----END RSA PRIVATE KEY-----
+  </privateKey>
+ </mailet>
