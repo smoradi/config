@@ -1,0 +1,6 @@
+# Found useful http://www.codinghorror.com/blog/2010/04/so-youd-like-to-send-some-email-through-code.html
+
+TXT  "v=spf1 ip4:85.133.144.86  ip4:127.0.0.1 ~all"
+TXT selector._domainkey "k=rsa; p=MI...AB"
+TXT select2r._domainkey "k=rsa; g=*; p="MI...AB"
+TXT select3r._domainkey "v=DKIM1; g=*; k=rsa; p=MI...QAB"

@@ -299,3 +299,7 @@ cd /usr/ports/multimedia/kmplayer && make install clean
 cd /usr/ports/www/squid31 && make install clean
 #squid-3.1.16        HTTP Caching Proxy
 /*Security /usr/local/sbin/squid /usr/local/libexec/squid/squid_radius_auth*/
+
+cd /usr/ports/net-im/skype && make install clean
+#skype-2.1.0.81,1    P2P VoIP software
+/*Security /usr/local/share/skype/skype */

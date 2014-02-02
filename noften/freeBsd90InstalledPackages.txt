@@ -47,6 +47,7 @@ cppunit-1.12.1      C++ port of the JUnit framework for unit testing
 cups-client-1.5.0   Common UNIX Printing System: Library cups
 cups-image-1.5.0    Common UNIX Printing System: Library cupsimage
 curl-7.21.3_2       Non-interactive tool to get files from FTP, GOPHER, HTTP(S)
+cuse4bsd-kmod-0.1.21_2 Cuse4BSD character device loopback driver for userspace
 cvsps-2.1           Create patchset information from CVS
 cyrus-sasl-2.1.25_1 RFC 2222 SASL (Simple Authentication and Security Layer)
 damageproto-1.2.1   Damage extension headers
@@ -272,6 +273,7 @@ libtool-2.4_1       Generic shared library support script
 libtorrent-0.12.9   BitTorrent Library written in C++
 libtorrent-rasterbar-0.14.12_1 A C++ library implementing a BitTorrent client
 libungif-4.1.4_5    Tools and library routines for working with GIF images
+libv4l-0.8.4_1      Video4Linux library
 libvolume_id-0.81.1 Library to provide file system type information
 libvorbis-1.3.2,3   Audio compression codec library
 libvpx-0.9.7        VP8 Codec SDK
@@ -282,6 +284,9 @@ libxkbui-1.0.2_1    The xkbui library
 libxml2-2.7.8_1     XML parser library for GNOME
 libxslt-1.1.26_3    The XSLT C library for GNOME
 libxul-1.9.2.24     Mozilla runtime package that can be used to bootstrap XUL+X
+linux-dri-7.4_1     Mesa-based DRI libraries, drivers and binaries (Linux Ubunt
+linux-f10-alsa-lib-1.0.21_1 The Advanced Linux Sound Architecture libraries (Linux Fedo
+linux-f10-alsa-plugins-oss-1.0.21_2 OSS plugin for ALSA (Linux Fedora 10)
 linux-f10-atk-1.24.0 Accessibility Toolkit, Linux/i386 binary (Linux Fedora 10)
 linux-f10-cairo-1.8.0_1 Vector graphics library Cairo (Linux Fedora 10)
 linux-f10-curl-7.19.6_1 The command line tool for transferring files with URL synta
@@ -291,7 +296,10 @@ linux-f10-flashplugin-11.2r202.291 Adobe Flash Player NPAPI Plugin
 linux-f10-fontconfig-2.6.0 An XML-based font configuration API for X Windows (Linux Fe
 linux-f10-gtk2-2.14.7_3 GTK+ library, version 2.X (Linux Fedora 10)
 linux-f10-jpeg-6b   RPM of the JPEG lib (Linux Fedora 10)
+linux-f10-libasyncns-0.7 C library for executing DNS queries asynchronously (Linux F
+linux-f10-libsigc++20-2.2.2 Callback Framework for C++ (Linux Fedora 10)
 linux-f10-libssh2-0.18 The library implementing the SSH2 protocol (Linux Fedora 10
+linux-f10-libv4l-0.6.2 Collection of video4linux support libraries (Fedora 10)
 linux-f10-nas-libs-1.9.1 Runtime libraries for NAS (Linux Fedora 10)
 linux-f10-nspr-4.7.6 Netscape Portable Runtime (Linux Fedora 10)
 linux-f10-nss-3.12.3.99.3_1 Network Security Services (Linux Fedora 10)
@@ -468,6 +476,7 @@ scrnsaverproto-1.2.1 ScrnSaver extension headers
 sdl-1.2.14_2,2      Cross-platform multimedia development API
 setxkbmap-1.2.0     Set the keyboard using the X Keyboard Extension
 shared-mime-info-0.90 A MIME type database from the FreeDesktop project
+skype-2.1.0.81,1    P2P VoIP software
 slisp-1.2           A simple Lisp interpreter
 speex-1.2.r1_3,1    An open-source patent-free voice codec
 sqlite3-3.7.9       An SQL database engine in a C library
@@ -499,6 +508,7 @@ vidalia-0.2.15      A graphical Tor controller based on Qt 4.x
 videoproto-2.3.1    Video extension headers
 vim-7.3.121         Vi "workalike", with many additional features
 vmware-vsphere-cli-4.1.0_1 VMware vSphere SDK for Perl with CLI tools
+webcamd-3.0.0.2     A port of Linux USB webcam and DVB drivers into userspace
 webp-0.1.3          Google WebP image format conversion tool
 wget-1.13.4_1       Retrieve files from the Net via HTTP(S) and FTP
 wifimgr-1.9         WiFi Networks Manager
