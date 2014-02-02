@@ -37,6 +37,7 @@ cairo-1.10.2_2,1    Vector graphics library with cross-device output support
 cantarell-fonts-0.0.6 Cantarell, a Humanist sans-serif font family
 cdrtools-3.00_1     CD/DVD/BluRay and ISO-9660 image creation and extraction to
 celt-0.11.3         The CELT ultra-low delay audio codec
+cheese-2.32.0_1     A Photobooth-inspired app for taking pictures and videos fr
 chromium-15.0.874.121 A mostly BSD-licensed web browser based on WebKit and Gtk+
 cmake-2.8.6_1       A cross-platform Makefile generator
 compat6x-i386-6.4.604000.200810_3 A convenience package to install the compat6x libraries
@@ -83,6 +84,7 @@ encodings-1.0.4,1   X.Org Encoding fonts
 epdfview-0.1.8_3    A lightweight PDF document viewer
 esound-0.2.41       A sound library for enlightenment package
 evieext-1.1.1       XEVIE extension headers
+evolution-data-server-2.32.1_1 The data backends for the Evolution integrated mail/PIM sui
 expat-2.0.1_2       XML 1.0 parser written in C
 expect-5.43.0_3     A sophisticated scripter based on tcl/tk
 farsifonts-0.4_2    Standard set of Unicode Persian fonts
@@ -138,6 +140,7 @@ glproto-1.4.12      GLX extension headers
 gmake-3.82          GNU version of 'make' utility
 gmp-5.0.2           A free library for arbitrary precision arithmetic
 gnash-0.8.9_1       GNU Flash movie player
+gnome-desktop-2.32.1_1 Additional UI API for GNOME 2
 gnome-doc-utils-0.20.3 GNOME doc utils
 gnome-icon-theme-2.31.0_1 A collection of icons for the GNOME 2 desktop
 gnome-mime-data-2.18.0_4 A MIME and Application database for GNOME
@@ -156,6 +159,8 @@ gsnapshot-1.1_3     A gtk+ based screen capture
 gstreamer-0.10.35   Development framework for creating media applications
 gstreamer-ffmpeg-0.10.13 GStreamer plug-in for manipulating MPEG video streams
 gstreamer-plugins-0.10.35_1,3 GStreamer written collection of plugins handling several me
+gstreamer-plugins-good-0.10.30,3 Good gstreamer-plugins
+gstreamer-plugins-v4l2-0.10.30,3 Gstreamer Video 4 Linux 2 source plugin
 gtk-2.24.6          Gimp Toolkit for X11 GUI (previous stable version)
 gtk-engines2-2.20.2 Theme engine for the GTK+-2.0 toolkit
 gtk-update-icon-cache-2.24.6 gtk-update-icon-cache utility from the Gtk+ toolkit.
@@ -237,6 +242,7 @@ libexecinfo-1.1_3   A library for inspecting program's backtrace
 libffi-3.0.9        Foreign Function Interface
 libfontenc-1.1.0    The fontenc Library
 libgcrypt-1.5.0     General purpose crypto library based on code used in GnuPG
+libgdata-0.6.6      GLib based implimentation of the GData protocol
 libgee-0.6.2.1      GObject collection library
 libglade2-2.6.4_4   GNOME glade library
 libglut-7.4.4       OpenGL utility toolkit
@@ -246,6 +252,7 @@ libgnomecanvas-2.30.3 A graphics library for GNOME
 libgnomeui-2.24.4   Libraries for the GNOME GUI, a GNU desktop environment
 libgpg-error-1.10   Common error values for all GnuPG components
 libgsf-1.14.21      An extensible i/o abstraction for dealing with structured f
+libical-0.44        An implementation of the IETF's Calendaring and Scheduling 
 libiconv-1.13.1_1   A character set conversion library
 libidn-1.22         Internationalized Domain Names command line tool
 libltdl-2.4_1       System independent dlopen wrapper

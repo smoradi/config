@@ -303,3 +303,6 @@ cd /usr/ports/www/squid31 && make install clean
 cd /usr/ports/net-im/skype && make install clean
 #skype-2.1.0.81,1    P2P VoIP software
 /*Security /usr/local/share/skype/skype */
+
+cd /usr/ports/multimedia/cheese && make install clean
+#cheese-2.32.0_1     A Photobooth-inspired app for taking pictures and videos fr
