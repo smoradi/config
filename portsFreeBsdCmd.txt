@@ -306,3 +306,9 @@ cd /usr/ports/net-im/skype && make install clean
 
 cd /usr/ports/multimedia/cheese && make install clean
 #cheese-2.32.0_1     A Photobooth-inspired app for taking pictures and videos fr
+
+pkg_delete cheese-2.32.0_1
+pkg_delete linux-f10-flashplugin11.2r202.291
+
+cd /usr/ports/security/pgpgpg && make install clean
+#pgpgpg-0.13_4       Wrapper for GnuPG to simulate PGP 2.6.x

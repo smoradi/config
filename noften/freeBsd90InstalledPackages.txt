@@ -37,7 +37,6 @@ cairo-1.10.2_2,1    Vector graphics library with cross-device output support
 cantarell-fonts-0.0.6 Cantarell, a Humanist sans-serif font family
 cdrtools-3.00_1     CD/DVD/BluRay and ISO-9660 image creation and extraction to
 celt-0.11.3         The CELT ultra-low delay audio codec
-cheese-2.32.0_1     A Photobooth-inspired app for taking pictures and videos fr
 chromium-15.0.874.121 A mostly BSD-licensed web browser based on WebKit and Gtk+
 cmake-2.8.6_1       A cross-platform Makefile generator
 compat6x-i386-6.4.604000.200810_3 A convenience package to install the compat6x libraries
@@ -147,6 +146,7 @@ gnome-mime-data-2.18.0_4 A MIME and Application database for GNOME
 gnome-vfs-2.24.4    GNOME Virtual File System
 gnome_subr-1.0      Common startup and shutdown subroutines used by GNOME scrip
 gnomehier-2.3_12    A utility port that creates the GNOME directory tree
+gnupg-1.4.11        The GNU Privacy Guard
 gnustep-make-2.6.1  GNUstep makefile package
 gnutls-2.12.14      GNU Transport Layer Security library
 gobject-introspection-0.10.8 Generate interface introspection data for GObject libraries
@@ -299,7 +299,7 @@ linux-f10-cairo-1.8.0_1 Vector graphics library Cairo (Linux Fedora 10)
 linux-f10-curl-7.19.6_1 The command line tool for transferring files with URL synta
 linux-f10-cyrus-sasl2-2.1.22_1 RFC 2222 SASL (Simple Authentication and Security Layer) (L
 linux-f10-expat-2.0.1 Linux/i386 binary port of Expat XML-parsing library (Linux 
-linux-f10-flashplugin-11.2r202.291 Adobe Flash Player NPAPI Plugin
+linux-f10-flashplugin-11.2r202.341 Adobe Flash Player NPAPI Plugin
 linux-f10-fontconfig-2.6.0 An XML-based font configuration API for X Windows (Linux Fe
 linux-f10-gtk2-2.14.7_3 GTK+ library, version 2.X (Linux Fedora 10)
 linux-f10-jpeg-6b   RPM of the JPEG lib (Linux Fedora 10)
@@ -417,6 +417,7 @@ patch-2.6.1_1       GNU patch utility
 pciids-20111109     Database of all known ID's used in PCI devices
 pcre-8.20           Perl Compatible Regular Expressions library
 perl-5.12.4_3       Practical Extraction and Report Language
+pgpgpg-0.13_4       Wrapper for GnuPG to simulate PGP 2.6.x
 phonon-4.5.1        Multimedia framework for KDE 4
 pixman-0.24.0       Low-level pixel manipulation library
 pkg-config-0.25_1   A utility to retrieve information about installed libraries
