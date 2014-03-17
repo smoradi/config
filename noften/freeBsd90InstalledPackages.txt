@@ -349,7 +349,7 @@ nspr-4.8.9          A platform-neutral API for system level and libc like funct
 nss-3.12.11         Libraries to support development of security-enabled applic
 open-motif-2.3.3    Motif X11 Toolkit (industry standard GUI (IEEE 1295))
 opencv-core-2.3.1_1 OpenCV core libraries
-openjdk-7.0.147_1   Java Development Kit 7
+openjdk-7.51.13_2,1 Java Development Kit 7
 openjdk6-b24        Oracle's Java 6 virtual machine release under the GPL v2
 openjpeg-1.3_2      An open-source JPEG 2000 codec
 openldap-client-2.4.26 Open source LDAP client implementation
