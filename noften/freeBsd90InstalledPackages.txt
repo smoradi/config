@@ -185,6 +185,7 @@ javavmwrapper-2.3.5 Wrapper script for various Java Virtual Machines
 jbig2dec-0.11       Decoder implementation of the JBIG2 image compression forma
 jbigkit-1.6         Lossless compression for bi-level images such as scanned pa
 jpeg-8_3            IJG's jpeg compression utilities
+jruby-1.6.5         An implementation of Ruby Interpreter in Pure Java
 kbproto-1.0.5       KB extension headers
 kde-xdg-env-1.0_3,1 Script which hooks into startkde and helps KDE pick up XDG 
 kdebase-3.5.10_9    Basic applications for the KDE system
@@ -499,6 +500,7 @@ tcl-8.4.19_3,1      Tool Command Language
 tcl-8.5.11          Tool Command Language
 tcl-modules-8.5.11  Tcl common modules
 terminus-font-4.36  Terminus Font - a clean fixed width font
+tetrons-1.9         Tetris(TM) clone for X11
 texi2html-1.82,1    Texinfo to HTML converter
 tiff-4.0.0_2        Tools and library routines for working with TIFF images
 tinyproxy-1.8.3,1   A small, efficient HTTP proxy server
@@ -534,6 +536,7 @@ xdg-utils-1.0.2_5   Tools to allow all applications to integrate with the free
 xextproto-7.2.0     XExt extension headers
 xf86-input-keyboard-1.5.0 X.Org keyboard input driver
 xf86-input-mouse-1.6.0 X.Org mouse input driver
+xf86-video-ati-6.14.2 X.Org ati display driver
 xf86-video-vesa-2.3.0_1 X.Org vesa display driver
 xf86bigfontproto-1.2.0 XFree86-Bigfont extension headers
 xf86dgaproto-2.1    XFree86-DGA extension headers

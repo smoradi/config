@@ -1,0 +1,26 @@
+# My tested environments:
+# FreeBSD 9.0
+# OpenJDK 7
+# Ruby 1.8
+# Git 1.7
+# Maven 2.2.1
+
+cd /path/to/gocd
+./bn clean cruise:prepare dist
+# Then for me complained about JRuby & FFI Implementation not found.
+# So I did install JRuby from FreeBSD ports
+cd /usr/ports/lang/jruby && make install clean
+#jruby-1.6.5         An implementation of Ruby Interpreter in Pure Java
+ln -s /usr/local/share/jruby tools/jruby
+ln -s /usr/local/share/jruby tools/jruby-1.7.3
+/usr/local/share/jruby/bin/jruby -S gem install buildr
+ruby -S gem install sass
+
+./bn clean cruise:prepare dist
+# Then for me complained about 'SecureRandom is not a module'.
+# Instead of line "require 'securerandom'" I copy entire module
+# from /usr/local/lib/ruby/1.8/securerandom.rb
+# to server/prepare_go_server_webapp.rake
+
+./bn clean cruise:prepare dist
+Completed in 9m14.647s
