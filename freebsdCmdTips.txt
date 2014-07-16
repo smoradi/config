@@ -46,3 +46,4 @@ shasum example.zip #print sha1
 swapinfo
 service netif restart # Restarts Network Interfaces
 service netif restart; dhclient em0; dhclient em1
+chmod -R g+w /ws      # gives write permission to group members

@@ -323,3 +323,6 @@ cd /usr/ports/lang/jruby && make install clean
 
 cd /usr/ports/games/tetrons && make install clean
 #tetrons-1.9         Tetris(TM) clone for X11
+
+cd /usr/ports/x11/xwd && make install clean
+#xwd-1.0.4           Dump an image of an X window
