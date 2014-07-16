@@ -326,3 +326,8 @@ cd /usr/ports/games/tetrons && make install clean
 
 cd /usr/ports/x11/xwd && make install clean
 #xwd-1.0.4           Dump an image of an X window
+
+cd /opt/ports/graphics/gimp && make install clean
+#gimp-2.8.10,2       The "meta-port" for The Gimp
+#gimp-app-2.6.11_5,1 A GNU Image Manipulation Program
+/*Security /usr/local/libexec/gimp/2.2/plug-ins/script-fu */

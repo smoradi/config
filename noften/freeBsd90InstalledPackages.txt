@@ -20,6 +20,7 @@ automake-1.11.1     GNU Standards-compliant Makefile generator (1.11)
 automake-1.4.6_6    GNU Standards-compliant Makefile generator (1.4)
 automake-wrapper-20101119 Wrapper script for GNU automake
 automoc4-0.9.88_2   Automatic moc for Qt 4 packages
+babl-0.1.6          Dynamic pixel format conversion library
 bash-4.1.11         The GNU Project's Bourne Again SHell
 bdftopcf-1.0.3      Convert X font from BDF to PCF
 bigreqsproto-1.1.1  BigReqs extension headers
@@ -80,6 +81,7 @@ emacs-23.3_6,2      GNU editing macros
 en-freebsd-doc-20111014 Documentation from the FreeBSD Documentation Project
 enca-1.13           A package for detecting encoding of text files
 encodings-1.0.4,1   X.Org Encoding fonts
+enscript-a4-1.6.4_4 ASCII to PostScript filter
 epdfview-0.1.8_3    A lightweight PDF document viewer
 esound-0.2.41       A sound library for enlightenment package
 evieext-1.1.1       XEVIE extension headers
@@ -128,9 +130,12 @@ gconf2-2.32.0_2     A configuration database system for GNOME
 gd-2.0.35_7,1       A graphics library for fast creation of images
 gdbm-1.9.1          The GNU database manager
 gdk-pixbuf-2.23.5_1 A graphic library for GTK+
+gegl-0.1.8_1        A graph based image processing framework
 getopt-1.1.4_2      A getopt(1) replacement that supports GNU-style long option
 gettext-0.18.1.1    GNU gettext package
 ghostscript9-9.02_4 Ghostscript 9.x PostScript interpreter
+gimp-2.8.10,2       The "meta-port" for The Gimp
+gimp-app-2.6.11_5,1 A GNU Image Manipulation Program
 gio-fam-backend-2.28.8 FAM backend for GLib\'s GIO library
 git-1.7.8           Distributed source code management tool
 glib-2.28.8_2       Some useful routines of C programming (current stable versi
@@ -153,6 +158,7 @@ gobject-introspection-0.10.8 Generate interface introspection data for GObject l
 google-perftools-1.8.3 Fast, multi-threaded malloc() and nifty performance analysi
 gpac-libgpac-0.4.5_4,1 Gpac MPEG-4 Systems library and headers
 gperf-3.0.3         Generates perfect hash functions for sets of keywords
+graphviz-2.28.0     Graph Visualization Software from AT&T and Bell Labs
 gsettings-desktop-schemas-3.0.1 Collection of globally shared GSetting schemas
 gsfonts-8.11_5      Standard Fonts for Ghostscript
 gsnapshot-1.1_3     A gtk+ based screen capture
@@ -176,6 +182,7 @@ ilmbase-1.0.1_1     ILM Base libraries a.k.a. Half, IlmThread, Imath and Iex
 imake-1.0.4,1       Imake and other utilities from X.Org
 inputproto-2.0.2    Input extension headers
 intltool-0.41.1     Tools to internationalize various kinds of data files
+iso-codes-3.29      Lists of the country, language and currency iso names
 iso8879-1986_2      Character entity sets from ISO 8879:1986 (SGML)
 isomd5sum-1.0.4_1   Implanting and checking checksums within an ISO9660 image
 jackit-0.121.3_1    A low-latency audio server
@@ -262,6 +269,7 @@ libmng-1.0.10_2     Multiple-image Network Graphics (MNG) reference library
 libmspack-0.2_1     A library for Microsoft compression formats
 libnotify-0.7.3_1   A library for desktop notifications
 libogg-1.2.2,4      Ogg bitstream library
+libopenraw-0.0.8_3  Library for camera RAW files decoding
 libotf-0.9.12       Library for handling OpenType fonts
 libpcbsd-8.0        PC-BSD Support Library
 libpciaccess-0.12.1 Generic PCI access library
@@ -274,6 +282,7 @@ libsigsegv-2.10     Handling page faults in user mode
 libsndfile-1.0.25   Reading and writing files containing sampled sound (like WA
 libsoup-2.34.3      A SOAP (Simple Object Access Protocol) implementation in C
 libsoup-gnome-2.34.3_1 A SOAP (Simple Object Access Protocol) implementation in C
+libspiro-20071029   Library to convert clothoid splines into bezier splines
 libtasn1-2.11       ASN.1 structure parser library
 libthai-0.1.5_4     Thai language support library
 libtheora-1.1.1_2   Theora video codec for the Ogg multimedia streaming system
@@ -285,6 +294,7 @@ libv4l-0.8.4_1      Video4Linux library
 libvolume_id-0.81.1 Library to provide file system type information
 libvorbis-1.3.2,3   Audio compression codec library
 libvpx-0.9.7        VP8 Codec SDK
+libwmf-0.2.8.4_6    Tools and library for converting Microsoft WMF (windows met
 libwnck-2.30.6      Library used for writing pagers and taskslists
 libxcb-1.7          The X protocol C-language Binding (XCB) library
 libxkbfile-1.0.7    XKB file library
@@ -320,6 +330,7 @@ linux-f10-tiff-3.8.2 The TIFF library, Linux/i386 binary (Linux Fedora 10)
 linux-f10-xorg-libs-7.4_1 Xorg libraries (Linux Fedora 10)
 linux-opera-11.62_1 A blazingly fast, full-featured, standards-compliant browse
 linux_base-f10-10_4 Base set of packages needed in Linux mode for i386/amd64 (L
+lua-5.1.5_6         Small, compilable scripting language providing easy access 
 luit-1.1.0          Locale and ISO 2022 support for Unicode terminals
 lynx-2.8.7.1_1,1    A non-graphical, text-based World-Wide Web client
 lzo2-2.06           Portable speedy, lossless data compression library
