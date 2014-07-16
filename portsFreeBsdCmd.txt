@@ -331,3 +331,6 @@ cd /opt/ports/graphics/gimp && make install clean
 #gimp-2.8.10,2       The "meta-port" for The Gimp
 #gimp-app-2.6.11_5,1 A GNU Image Manipulation Program
 /*Security /usr/local/libexec/gimp/2.2/plug-ins/script-fu */
+
+cd /usr/ports/net/dropbox-api-command && make install clean
+#dropbox-api-command-1.00,1 Dropbox API wrapper command

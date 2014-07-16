@@ -71,6 +71,7 @@ docbook-xsl-1.76.1  XSL DocBook stylesheets
 dri-7.4.4,2         OpenGL hardware acceleration drivers for the DRI
 dri2proto-2.3       DRI2 prototype headers
 droid-fonts-ttf-20110324 The Droid typeface family
+dropbox-api-command-1.00,1 Dropbox API wrapper command
 e2fsprogs-libuuid-1.41.14 UUID library from e2fsprogs package
 eclipse-3.6.2       An open extensible IDE for anything and nothing in particul
 eclipse-PropertiesEditor-4.8.2_3 Properties editor for eclipse
@@ -373,17 +374,30 @@ orc-0.4.14_1        Library and toolset to operate arrays of data
 p11-kit-0.9         Library for loading and enumurating of PKCS#11 modules
 p5-Archive-Zip-1.30_1 Perl module to create, manipulate, read, and write Zip arch
 p5-Authen-NTLM-1.09 An NTLM authentication module
+p5-CPAN-Meta-2.112621 The distribution metadata for a CPAN dist
+p5-CPAN-Meta-YAML-0.004 Read and write a subset of YAML for CPAN Meta files
+p5-Class-Accessor-0.34 Automated accessor generation
+p5-Class-Data-Inheritable-0.08 Inheritable, overridable class data
 p5-Class-Inspector-1.25 Provides information about classes
+p5-Class-Load-0.12  A working (require Class::Name) and more
 p5-Class-MethodMaker-2.18 Perl module for creating generic methods
+p5-Class-Singleton-1.4 Perl module that describes a singular object class
 p5-Compress-Raw-Bzip2-2.045 Low-Level Interface to bzip2 compression library
 p5-Compress-Raw-Zlib-2.045 Low-Level Interface to zlib compression library
 p5-Convert-BinHex-1.119 Perl module to extract data from Macintosh BinHex files
 p5-Crypt-SSLeay-0.58_1 Perl5 interface to allow p5-libwww LWP to make https connec
+p5-Data-OptList-0.107 Parse and validate simple name/value option pairs
+p5-DateTime-0.70    A date and time object
+p5-DateTime-Format-Strptime-1.50.00,1 Parse and format strp and strf time patterns
+p5-DateTime-Locale-0.45 Localization support for DateTime
+p5-DateTime-TimeZone-1.42 Time zone object base class and factory
 p5-Digest-HMAC-1.03 Perl5 interface to HMAC Message-Digest Algorithms
+p5-Dist-CheckConflicts-0.02 Declare version conflicts for your dist
 p5-Email-Date-Format-1.002 Produce RFC 2822 date strings
 p5-Encode-Locale-1.02 Determine the locale encoding
 p5-Error-0.17016    Perl module to provide Error/exception support for perl: Er
 p5-File-Listing-6.03 Parse directory listings
+p5-Furl-0.38        Perl extension of lightning-fast URL fetcher
 p5-HTML-Parser-3.69 Perl5 module for parsing HTML documents
 p5-HTML-Tagset-3.20 Some useful data table in parsing HTML
 p5-HTTP-Cookies-6.00 HTTP Cookie jars
@@ -391,29 +405,53 @@ p5-HTTP-Daemon-6.00 Simple HTTP server class
 p5-HTTP-Date-6.00   Conversion routines for the HTTP protocol date formats
 p5-HTTP-Message-6.02 Representation of HTTP style messages
 p5-HTTP-Negotiate-6.00 Implementation of the HTTP content negotiation algorithm
+p5-HTTP-Parser-XS-0.14 Perl extension of fast, primitive HTTP request parser
 p5-IO-Compress-2.045 Perl5 compression modules (bzip2, deflate, gzip, zlib, zip)
 p5-IO-Socket-SSL-1.52 Perl5 interface to SSL sockets
 p5-IO-stringy-2.110 Perl5 module for using IO handles with non-file objects
+p5-JSON-2.53        Perl extension to convert to JSON (JavaScript Object Notati
+p5-JSON-PP-2.27200_1 A JSON::XS compatible pure-Perl module
 p5-LWP-MediaTypes-6.01 Guess media type for a file or a URL
 p5-LWP-Protocol-https-6.02 Provide https support for LWP::UserAgent
+p5-List-MoreUtils-0.33 Provide the stuff missing in List::Util
 p5-Locale-gettext-1.05_3 Message handling functions
 p5-MIME-Lite-3.02.8 A simple interface for creating (not parsing!) MIME message
 p5-MIME-Tools-5.502,2 A set of perl5 modules for MIME
 p5-MIME-Types-1.32  Perl extension for determining MIME types
 p5-Mail-Tools-2.08  Perl5 modules for dealing with Internet e-mail messages
+p5-Math-Round-0.06  Perl extension for rounding numbers
+p5-Module-Build-0.3800_1 Build and install Perl modules
+p5-Module-Metadata-1.000007 Perl extension to gather package information from perl modu
+p5-Module-Runtime-0.011 Perl module for runtime module handling
 p5-Mozilla-CA-20111025 Perl extension for Mozilla CA cert bundle in PEM format
 p5-Net-HTTP-6.02    Low-level HTTP client
+p5-Net-OAuth-0.27_1 An implementation of the OAuth protocol
 p5-Net-SMTP-SSL-1.01_1 An SMTP client supporting SSL
 p5-Net-SSLeay-1.42  Perl5 interface to SSL
+p5-Package-DeprecationManager-0.11 Manage deprecation warnings for your distribution
+p5-Package-Stash-0.33 Routines for manipulating stashes
+p5-Package-Stash-XS-0.25 Faster and more correct implementation of the Package::Stas
+p5-Params-Classify-0.013 Argument type classification
+p5-Params-Util-1.04 Utility functions to aid in parameter checking
+p5-Params-Validate-1.00 Validate method/function parameters
+p5-Parse-CPAN-Meta-1.44.01_1 Parse META.yml and other similar CPAN metadata files
+p5-Path-Class-0.24  Cross-platform path specification manipulation
+p5-Perl-OSType-1.002 Map Perl operating system names to generic types
 p5-SOAP-Lite-0.714  SOAP::Lite - Client and server side SOAP implementation
+p5-String-Random-0.22,1 Perl interface to generate "random" strings
+p5-Sub-Exporter-0.982 A sophisticated exporter for custom-built routines
+p5-Sub-Install-0.925 Install subroutines into packages easily
 p5-Task-Weaken-1.04 Ensure that a platform has weaken support
 p5-Term-ReadKey-2.30 A perl5 module for simple terminal control
 p5-TimeDate-1.20,1  Perl5 module containing a better/faster date parser for abs
+p5-Try-Tiny-0.11    Minimal try/catch with proper localization of $@
 p5-URI-1.59         Perl5 interface to Uniform Resource Identifier (URI) refere
 p5-UUID-0.04        Perl extension for using UUID interfaces as defined in e2fs
 p5-Unicode-Map8-0.13 Mapping table between 8-bit chars and Unicode
 p5-Unicode-String-2.09 These are experimental Perl5 modules to handle various Unic
+p5-Version-Requirements-0.101020_1 A set of version requirements for a CPAN dist
 p5-WWW-RobotRules-6.01 Database of robots.txt-derived permissions
+p5-WebService-Dropbox-1.01 Perl interface to Dropbox API
 p5-XML-LibXML-1.88,1 Interface to Gnome libxml2 library
 p5-XML-NamespaceSupport-1.11 A simple generic namespace support class
 p5-XML-Parser-2.41  Perl extension interface to James Clark's XML parser, expat
@@ -421,7 +459,9 @@ p5-XML-SAX-0.96     Simple API for XML
 p5-XML-SAX-Expat-0.40 Simple API for XML
 p5-XML-Simple-2.18  Trivial API for reading and writing XML (esp config files)
 p5-libwww-6.02_1    Perl5 library for WWW access
+p5-parent-0.225     Establish an ISA relationship with base classes at compile 
 p5-subversion-1.7.2 Perl bindings for Version control system
+p5-version-0.95     Perl extension for Version Objects
 pam_kde-1.0         PAM modules for KDE Display Manager
 pango-1.28.4        An open-source framework for the layout and rendering of i1
 pari-2.3.5,1        Mathematics library and advanced calculator package
