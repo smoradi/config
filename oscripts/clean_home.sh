@@ -26,6 +26,9 @@ fi
 if [ -d ~/.fontconfig ]; then
   rm -r ~/.fontconfig;  echo "~/.fontconfig is clear now.."
 fi
+if [ -d ~/.config ]; then
+  rm -r ~/.config;  echo "~/.config is clear now.."
+fi
 if [ -d ~/.mcop ]; then 
   rm -r ~/.mcop;  echo "~/.mcop is clear now.."
 fi
