@@ -43,3 +43,6 @@ echo 'setxkbmap -model pc104 -layout "us,bg" -variant ",phonetic" -option "grp:a
 md5 ubuntu-12.04-server-i386.iso
 MD5 (ubuntu-12.04-server-i386.iso) = 32184a83c8b5e6031e1264e5c499bc03
 sudo gpasswd -d user1 group1
+xwd -out screenshot.png
+tar -xJf foo-bar.tar.xz
+xset r rate 200 20          # Set Keyboard Repeat Delay and Rate
