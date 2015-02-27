@@ -46,3 +46,10 @@ sudo gpasswd -d user1 group1
 xwd -out screenshot.png
 tar -xJf foo-bar.tar.xz
 xset r rate 200 20          # Set Keyboard Repeat Delay and Rate
+sudo vim /etc/network/interfaces
+sudo /etc/init.d/networking restart
+netstat -an | egrep 'Proto|LISTEN'
+./tor-browser & disown
+
+cp newFont.TTF ~/.fonts/
+sudo fc-cache -fv

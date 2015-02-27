@@ -1,3 +1,3 @@
 disobediance
-someone just delete my MUSIC script! 
+someone just delete my MUSIC script!
 (I've add sshd : ALL : deny to /etc/hosts.allow)
