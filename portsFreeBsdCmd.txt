@@ -334,3 +334,11 @@ cd /opt/ports/graphics/gimp && make install clean
 
 cd /usr/ports/net/dropbox-api-command && make install clean
 #dropbox-api-command-1.00,1 Dropbox API wrapper command
+
+cd /usr/ports/security/sudo && make install clean
+#sudo-1.8.3_1        Allow others to run commands as root
+/*Security /usr/local/bin/sudo /usr/local/bin/sudoedit */
+
+cd /usr/ports/lang/ruby19 && make install clean
+#ruby-1.9.3.0,1      An object-oriented interpreted scripting language
+/*Security /usr/local/lib/ruby/i386-freebsd9/socket.o */

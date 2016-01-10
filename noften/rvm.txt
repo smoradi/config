@@ -1,0 +1,13 @@
+curl -L https://get.rvm.io | bash
+
+source ~/.rvm/scripts/rvm
+# didn't worked for me, I add ~/.rvm/bin to PATH variable instead
+
+type rvm | head -n 1
+
+rvm list known
+
+rvm list
+
+rvm install 1.9.3
+# failed for me. in log says rvm is best supported with freebsd 10+

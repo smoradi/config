@@ -304,6 +304,7 @@ libxkbui-1.0.2_1    The xkbui library
 libxml2-2.7.8_1     XML parser library for GNOME
 libxslt-1.1.26_3    The XSLT C library for GNOME
 libxul-1.9.2.24     Mozilla runtime package that can be used to bootstrap XUL+X
+libyaml-0.1.4_1     A YAML 1.1 parser and emitter written in C
 linux-dri-7.4_1     Mesa-based DRI libraries, drivers and binaries (Linux Ubunt
 linux-f10-alsa-lib-1.0.21_1 The Advanced Linux Sound Architecture libraries (Linux Fedo
 linux-f10-alsa-plugins-oss-1.0.21_2 OSS plugin for ALSA (Linux Fedora 10)
@@ -544,6 +545,7 @@ squid-3.1.16        HTTP Caching Proxy
 sshguard-1.5_1      Protect hosts from brute force attacks against ssh and othe
 startup-notification-0.10_2 Library that supports startup notification spec from freede
 subversion-1.7.2    Version control system
+sudo-1.8.3_1        Allow others to run commands as root
 swt-devel-3.6.2,1   Standard Widget Toolkit for Java
 t1lib-5.1.2_1,1     A Type 1 Rasterizer Library for UNIX/X11
 talloc-2.0.7        Hierarchical pool based memory allocator
@@ -558,7 +560,7 @@ tinyproxy-1.8.3,1   A small, efficient HTTP proxy server
 tk-8.4.19_2,2       Graphical toolkit for Tcl
 tk-8.5.11           Graphical toolkit for Tcl
 tomcat-6.0.33_1     Open-source Java web server by Apache, 6.x branch
-tor-0.2.3.25        An anonymizing overlay network for TCP
+tor-0.2.2.34        An anonymizing overlay network for TCP
 trapproto-3.4.3     DEC-XTRAP extension headers
 ttmkfdir-3.0.9_2,1  Create fonts.scale file for use with TrueType font server
 unrar-4.00,5        Extract, view & test RAR archives
