@@ -53,3 +53,4 @@ netstat -an | egrep 'Proto|LISTEN'
 
 cp newFont.TTF ~/.fonts/
 sudo fc-cache -fv
+find . -name "*.war" -type f -delete

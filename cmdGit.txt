@@ -58,3 +58,9 @@ git config --global http.proxy 'socks5://127.0.0.1:8118'
 # Using socket proxy for ssh protocol for git
 # e.g. add following line to ~/.ssh/config
 Host github.com User git ProxyCommand nc -x localhost:9150 %h %p
+
+# Track remote branch
+# As of Git 1.7
+git branch --set-upstream master sorigin/master
+# As of Git 1.8
+git branch -u sorigin/master master
