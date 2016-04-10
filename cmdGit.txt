@@ -64,3 +64,5 @@ Host github.com User git ProxyCommand nc -x localhost:9150 %h %p
 git branch --set-upstream master sorigin/master
 # As of Git 1.8
 git branch -u sorigin/master master
+
+git config --global core.editor "vi"
