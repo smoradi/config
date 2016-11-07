@@ -46,6 +46,7 @@ sudo gpasswd -d user1 group1
 xwd -out screenshot.png
 tar -xJf foo-bar.tar.xz
 xset r rate 200 20          # Set Keyboard Repeat Delay and Rate
+xset r off		    # Set Keyboard Repeat off
 sudo vim /etc/network/interfaces
 sudo /etc/init.d/networking restart
 netstat -an | egrep 'Proto|LISTEN'
@@ -56,3 +57,7 @@ sudo fc-cache -fv
 find . -name "*.war" -type f -delete
 
 gsettings set com.canonical.Unity.Dash scopes "['applications.scope']"
+
+# One way to change monitor resolution
+sudo vi /etc/default/grub
+GRUB_GFXMODE=1024x768
