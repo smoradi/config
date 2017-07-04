@@ -61,3 +61,5 @@ gsettings set com.canonical.Unity.Dash scopes "['applications.scope']"
 # One way to change monitor resolution
 sudo vi /etc/default/grub
 GRUB_GFXMODE=1024x768
+
+export PS1='\[\033[0;32m\]\h\[\033[0;33m\] \W\[\033[00m\]: '
