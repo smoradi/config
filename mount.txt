@@ -9,3 +9,7 @@ dump -0Lauf /mnt/1usb/20121025/ada0s3g.dump /dev/ada0s3g
 mount -t msdosfs -o -m=644,-M=755 /dev/da0 /mnt/username/
 
 mount -t ext2fs /dev/da0s2 /mnt/2usb/ 
+
+# Android connected usb device
+adb shell ls /sdcard/Download
+adb pull /sdcard/Download/foo.apk
